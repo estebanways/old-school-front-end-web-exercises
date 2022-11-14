@@ -1,0 +1,110 @@
+
+/******************** Gallery********************************/
+
+/* ==========================================================================
+   Font Face
+   ========================================================================== */
+ @font-face {
+    font-family:"Oswald";
+    src: local("Oswald"), local("Oswald-Regular"), url("../fonts/oswald/Oswald-Regular-webfont.eot");
+    src: url("../fonts/oswald/Oswald-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/oswald/Oswald-Regular-webfont.ttf") format("truetype"), url("../fonts/oswald/Oswald-Regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family:"Ubuntu";
+    src: local("Ubuntu"), url("../fonts/ubuntu/Ubuntu-R-webfont.eot");
+    src: url("../fonts/ubuntu/Ubuntu-R-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/Ubuntu-R-webfont.ttf") format("truetype"), url("../fonts/ubuntu/Ubuntu-R-webfont.woff") format("woff");
+}
+/*========================================================================== */
+
+
+#galleyTittle{
+	margin: 135px 0 25px 0;
+	font:normal normal 500 30px normal;
+    font-family: 'Oswald',  sans-serif;
+    letter-spacing: -1px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.imageConteiner{
+width:198px;
+margin:0 20px 20px 0;
+height:280px;
+border:1px solid white;
+float:left;
+background:#F2F2F2;
+padding:10px;
+text-align:center;
+}
+
+.imageConteinerLast{
+width:198px;
+margin:0 0 20px 0;
+height:280px;
+border:1px solid white;
+float:left;
+background:#F2F2F2;
+padding:10px;
+text-align:center;
+}
+
+.imageConteiner span{
+font: 14px arial;
+color:#B40404;
+display:block;
+padding-top:10px;
+padding-bottom:5px;
+}
+
+.imageConteiner a{
+text-decoration:none;
+text-transform:uppercase;
+font: 13px arial;
+letter-spacing:0px;
+}
+
+.imageConteinerLast span{
+font: 14px arial;
+color:#B40404;
+display:block;
+padding-top:10px;
+padding-bottom:5px;
+}
+
+.imageConteinerLast a{
+text-decoration:none;
+text-transform:uppercase;
+font: 13px arial;
+letter-spacing:0px;
+}
+
+.imageConteiner a:hover{
+color:#B40404;
+}
+
+.imageConteinerLast a:hover{
+color:#B40404;
+}
+
+.imageConteiner img,.imageConteinerLast img{
+box-shadow: 1px 1px 4px #848484 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

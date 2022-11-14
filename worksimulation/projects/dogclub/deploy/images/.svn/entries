@@ -1,0 +1,43 @@
+9
+
+dir
+355
+https://subversion.assembla.com/svn/external-training-second-set-2013/trunk/projects/dogclub/deploy/images
+https://subversion.assembla.com/svn/external-training-second-set-2013
+
+
+
+2013-08-31T16:48:58.965226Z
+310
+btatiana95
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0d74e1d9-0806-4754-9aa8-232e6549806c
+
+dogbreeds
+dir
+
+home
+dir
+
+per_services
+dir
+
+slide
+dir
+
+training
+dir
+

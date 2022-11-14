@@ -1,0 +1,36 @@
+nav{ position:relative; margin: 0px 0 0 0;float: right;}
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+	 .sf-menu>li>a{
+    padding: 28px 13px;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+  nav{
+		float:none;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#fff;
+		padding:15px 0;
+	}
+		nav:before{
+			content:'Menu:';
+			display:block;
+			margin-bottom:5px;
+		}
+	.sf-menu{display:none;}
+	nav select{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#464646;
+		width:100%;
+    outline: none;
+    padding: 5px;
+		border:2px solid #9e9e9e;
+	}
+	
+}
+
+@media only screen and (max-width: 479px) {
+	
+}

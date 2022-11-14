@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------
+							FUTBOLTEST
+						
+Basic Style Sheet (for version 4 browsers)
+version: 1.1
+last update: 20/10/2010
+author: javier montero ureña
+email: javiermontur@hotmail.es
+phone: 8738-6736
+--------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+						COLORS STANDARD
+						
+BACKGROUND COLOR: #f0f0f0
+--------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+							BODY
+--------------------------------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	background: #f0f0f0;
+	max-width: 100%;
+}
+/*------------------------------------------------------------------
+							WRAPPER
+-------------------------------------------------------------------*/
+#wrapper{
+	margin: 0 auto;
+	width:730px;
+	height: 900px;
+	max-width: 100%;
+	border: 1px solid #cc8800;
+}
+
+/*------------------------------------------------------------------
+							header
+------------------------------------------------------------------*/
+#header{
+	width: 730px;
+	height: 83px;
+	background: #f0f0f0 url(../images/banner_top.jpg) no-repeat;
+	max-width: 100%;
+	border: 1px solid #cc8800;
+}
+
+h1{
+	font:  30px Arial, Helvetica, sans-serif;
+	color: #358000;
+}
+
+#header h1{
+	padding: 22px 0 0 282px
+}
+/*------------------------------------------------------------------
+							container
+------------------------------------------------------------------*/
+#container{
+	background:	#fff;
+	border: solid 1px #b3b3b3;
+	max-width: 100%;
+}
+/*------------------------------------------------------------------
+							navBar
+------------------------------------------------------------------*/
+#navBar{
+	background: #fff;
+	border: 1px solid #cc8800;
+	
+}
+#navBar ul{
+	padding: 23px 0 0 27px;
+	border-bottom: solid 19px  #000;
+	overflow: hidden;	
+}
+#navBar li{
+	float:left;
+	list-style: none;
+	font: 12px Helvetica, sans-serif;	
+}
+
+#navBar li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 0 7px 0;
+	width: 135px;
+	color: #fff;
+	background: url(../images/navBar_buttonBg.jpg);
+	text-align: center;	
+}
+#navBar li a:hover{
+	text-decoration:underline;
+}
+
+/*------------------------------------------------------------------
+							banner
+------------------------------------------------------------------*/
+#banner{
+	background: url(../images/banner.jpg)no-repeat;
+	height:304px;
+	max-width: 100%;
+	border: 1px solid #cc8800;
+}
+
+/*------------------------------------------------------------------
+							newsAndid
+------------------------------------------------------------------*/
+#newsAndid{
+	background: #fff;
+	overflow: hidden;
+	max-width: 100%;
+	border: 1px solid #cc8800;
+
+}
+/*------------------------------------------------------------------
+							news
+------------------------------------------------------------------*/
+
+#news{
+	width: 521px;
+	float:left;
+	padding: 0 0 28px 0;
+	margin: 0 11px 0 0;
+	max-width: 100%;
+	border: 1px solid #cc8800;
+	
+}
+h2{
+	font:15px arial, sans-serif;
+	color: #9e301f;
+	letter-spacing: 0.5px;	
+}
+/*------------------------------------------------------------------
+							firstNew
+------------------------------------------------------------------*/
+
+#firstNew{
+	height: 83px;
+	background: #f8f8f8;
+	padding: 6px 47px 5px 29px;
+	border: solid #b3b3b3;
+	border-width: 1px 1px 0 0;
+	max-width: 100%;
+	/*--I used this property(border-width), because just use it works and don´t appear borders overwrited--*/
+	border: 1px solid #cc8800;
+	}
+
+#firstNew p {
+	float:right;
+	width: 355px;
+	text-align:right;
+	font: 10px verdana, sans-serif;
+	padding: 8px 0 0 0;
+	letter-spacing: 0.3px;
+	line-height: 125%;
+}
+#firstNew h2 {
+	text-align:right;	
+}
+
+#firstNewimage{
+	float:left;
+	margin: 6px 0 0 0;
+	background: url(../images/logo_fifa.jpg) no-repeat;
+	width: 71px;
+	height: 70px;
+	border: 1px solid #cc8800;
+}
+/*------------------------------------------------------------------
+							secondNew
+------------------------------------------------------------------*/
+
+#secondNew{
+	background: #e5e5e5;
+	height: 85px;
+	border: solid  #b3b3b3;
+	border-width: 1px 1px 1px 0;
+	max-width: 100%;
+	/*--I used this property(border-width), because just use it works and do not appear borders overwrited--*/
+	border: 1px solid #cc8800;
+	}
+#secondNew ol{
+	width: 335px;
+	font: 10px verdana, sans-serif;
+	letter-spacing: 0.5px;
+	float: left;
+	padding: 0 0 0 41px;
+	line-height: 100%;
+	border: 1px solid #cc8800;
+}
+#secondNewimage{
+	float:left;
+	margin: 4px 0 3px 21px;
+	background: #000 url(../images/picture_ticket.jpg) no-repeat;
+	width: 78px;
+	height: 77px;
+	border: 1px solid #cc8800;
+}
+#secondNew h2{
+	float:left;
+	padding: 4px 0 2px 22px;
+	border: 1px solid #cc8800;
+}
+#secondNew a{
+	text-decoration: none;
+	color: #2ebbfc;
+	border: 1px solid #cc8800;
+}
+#secondNew ul{
+	list-style: none;
+	margin: 0 0 0 -17px;
+	border: 1px solid #cc8800;
+}
+/*------------------------------------------------------------------
+							id
+------------------------------------------------------------------*/
+
+#id{
+	padding: 13px 0 6px 7px;
+	float: right;
+	width: 186px;
+	border:  solid 1px #b3b3b3;
+	max-width: 100%;
+	
+	/*--I used this property(border-width), because just use it works and don´t appear borders overwrited--*/	
+}
+
+#id h2{
+	
+	padding: 0 0 0 3px;
+	
+}
+
+#id p{
+	font: 10px verdana, sans-serif;
+	margin: 0 0 6px 2px;
+	
+}
+
+label{
+	font: bold 11px Helvetica,sans-serif;
+}
+#id input{
+	width: 152px;
+	font: bold 15px Helvetica, sans-serif;
+	display: block;
+	margin: 0 0 3px 1px;
+}
+#id button{ 
+	background: #b3b3b3;
+	border: none;
+	margin: 11px 0 3px 0;
+	padding: 3px 9px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+}
+
+
+/*------------------------------------------------------------------
+							footer
+------------------------------------------------------------------*/
+#footer ul{
+	padding: 12px 0 0 0;
+	line-height: 90%;
+	letter-spacing: 0.5px;
+}
+#footer ul li{
+	text-decoration:none;
+	display: inline;
+	color: #b3b3b3;
+	font: 10px verdana, sans-serif;
+	margin: 0 1px 0 0;
+}
+#footer a{
+	text-decoration:none;
+	color: #b3b3b3;
+}
+#footer a:hover{
+	text-decoration:none;
+	color: #9e301f;
+}
+#footer p{
+	font: 10px verdana, sans-serif;
+	color: #b3b3b3;
+	margin: 0 0 190px 0;
+}

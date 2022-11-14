@@ -1,0 +1,70 @@
+/* --------------------------------- 
+Site: Reset CSS file
+Author: Marcelo Guzman 
+Updated: 2013/06/12
+--------------------------------- */
+
+
+	
+body,html,div,blockquote,img,label,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td
+{
+  border:0;
+  outline:none;
+  margin:0;
+  padding:0;
+}
+
+body
+{
+  line-height:1;
+  font-size:88%;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-size:100%;
+  margin:0;
+  padding:.6em 0;
+}
+
+ul,ol
+{
+  list-style:none;
+}
+
+img
+{
+  border:0;
+}
+
+
+p{
+  border:0;
+  text-align: left;
+  outline:none;
+  margin:0 0 15px 0;
+  padding:0;
+}
+
+a
+{
+  color:#darkblue;
+  text-decoration:none;
+}
+
+a:hover
+{
+  text-decoration:underline;
+}
+
+.floatLeft
+{
+  float:left;
+  padding:.5em .5em .5em 0;
+}
+
+.floatRight
+{
+  float:rightright;
+  padding:.5em 0 .5em .5em;
+}

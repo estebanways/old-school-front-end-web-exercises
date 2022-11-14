@@ -1,0 +1,433 @@
+/*
+960px grid system ~ Core CSS.
+12 Columns ~ Margin left: 10px ~ Margin right: 10px
+
+Based on the 960.gs grid system - http://960.gs/
+by Nathan Smith
+
+Created by the Grid System Generator - v1.04
+Learn more ~ http://www.gridsystemgenerator.com/
+*/
+
+/*
+Forces backgrounds to span full width,
+even if there is horizontal scrolling.
+Increase this if your layout is wider.
+
+Note: IE6 works fine without this fix.
+*/
+
+
+/*-------------------------------------------------
+Esteban: Body defines the width to 960px
+---------------------------------------------------*/
+
+body {
+	min-width: 960px;
+}
+
+/* =Containers
+--------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------
+Esteban: container_12 means the 12 red areas (columns) 
+divided by white spaces. Include the white margins
+that are a part of the image in red and white. Left
+white has 10px and right white has another 10px width
+---------------------------------------------------*/
+
+.container_12
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	border: 1px solid #cc8800;
+}
+
+/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------
+Esteban:My custom grids grids:
+1. Grids are renamed as boxes with column and 
+row names but boxes should be renamed for page
+ids or classes for <div>. Example: 
+<div id"anyid"></div><div class"anyclass"></div>
+2. boxes have not left nor right margins as grid had
+to make possible to fix the box edges. We could need
+margins on the left and on the right. In this case
+we could create new boxes or boxes classes with margins
+or simply put the content previously prepared with
+margins in the box. For example: If  we put an image
+on the left we would create the image slice including
+a blank space to work as margin, or we will add some
+html to the image or text or whatever you wan to add
+inside the box to give the margin to that specific
+content using margins, padding, etc.
+NOTE: 
+Try to create a box inside a box. The smaller
+box inside will work as border and will have the
+real content. Will work pretty much as passing.
+Remember to set box properties in section
+=Grid >> 12 Columns
+---------------------------------------------------*/
+
+.box001,
+.box002,
+.box003,
+.box004,
+.box005,
+.box006,
+.box007,
+.box008,
+.box009,
+.box010,
+.box011,
+.box012 {
+	display: inline;
+	float: left;
+}
+
+
+/* Esteban: For my new boxes I need the same properties */
+
+.box013 {
+	display: inline;
+	float: left;
+}
+
+.box014 {
+	display: inline;
+	float: left;
+	border: 1px solid #cc8800;  /* Esteban: box014 is the a copy of the box013 with border set to 1px.
+								   The border helps during designing to identify the shape and size
+								   of a box in the page.
+								   When I add this border to the Box row class, the class size will 
+								   be incremented 2px width (left and right) and 2px height (top
+								   and bottom) for every box in the row.
+								   When the amount of widths of the boxes reaches the maximum width,
+								   in this case 960px, the next box in the html will be dropped to
+								   the next row, to the left, fixed to first box of the previous row, 
+								   showing like a flow of boxes.
+								   See example in the html file: PICTURE ROW 4.
+								*/
+}
+
+
+.box015 {
+	display: inline;
+	float: left;
+}
+
+.box016 {
+	display: inline;
+	float: left;
+	border: 1px solid #cc8800;  /* Esteban: I am able to give to the box the same weight of the box on the left
+								   hand but that change is not going to alter the flow behaviour, so 
+								   the box's right edge will be next to the left edge of the next box
+								   from left to right.
+								   The border are not required, but are there for visual reference.
+							    */
+}
+
+.section01,
+.section02, 
+.section03 {
+	display: inline;
+	float: left;
+	border: 1px solid #cc8800;  /*
+								   Esteban: The border are not required, but are there for visual reference.
+							    */
+}
+
+
+.article01 {
+	display: inline;
+	float: left;
+	border: 1px solid #cc8800;  /*
+								   Esteban: The border are not required, but are there for visual reference.
+							    */
+}
+
+.article02 {
+	display: inline;
+	float: left;
+	border: 1px solid #cc8800;  /*
+								   Esteban: The border are not required, but are there for visual reference.
+							    */
+}
+
+
+
+/*-------------------------------------------------
+Esteban: The grids are the rectangles like boxes 
+in black that touch the containers in red. The shape
+is given by the paragraph style in the <head> of the
+html file. The size is setup later.
+---------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/*-------------------------------------------------
+Esteban: For our project we are not going to use
+.push or .pulls. Push are after the grids forming
+something like a stairway (with prefix and suffix).
+A Push is pushed on the right before the pull
+appear in the same level on the left of its push.
+Together, the push and the pull will complete 960px
+approximately.
+---------------------------------------------------*/
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11 {
+	position: relative;
+}
+
+
+
+/* =Grid >> Children (Alpha ~ First, Omega ~ Last)
+--------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------
+Esteban: Am I using alpha - omega ?
+-------------------------------------------*/
+
+
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+
+/* =Grid >> 12 Columns
+--------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------
+Esteban: My custom box (previously called grid) 
+width classes.
+I am increasing the amount of pixels of every box
+by 20px to replace the left and right borders 
+removed from the boxes in the section "=Grid >> Global"
+of this file. Left and right box edges will touch
+left and right edges of the other boxes. 
+Example: 
+.grid_01 {width: 60px;} now is .box001 {width: 80px}
+I added heigth for some boxes that I am gonna use.
+NOTE:
+Double check this sizes later as they are affected
+by the paragraph padding.
+Remember to set box properties in section =Grid >> Global
+---------------------------------------------------*/
+
+/* Esteban: My New boxes */
+.container_12 .box001 {width: 80px;}		/* <-- In use */
+.container_12 .box002 {width: 140px;}  	/* Plus 20 pixels pending */
+.container_12 .box003 {width: 220px;}	/* Plus 20 pixels pending */	
+.container_12 .box004 {width: 300px;}	/* Plus 20 pixels pending */
+.container_12 .box005 {width: 380px;}	/* Plus 20 pixels pending */
+.container_12 .box006 {width: 460px;}	/* Plus 20 pixels pending */
+.container_12 .box007 {width: 540px;}	/* Plus 20 pixels pending */
+.container_12 .box008 {width: 620px;}	/* Plus 20 pixels pending */
+.container_12 .box009 {width: 700px;}	/* Plus 20 pixels pending */
+.container_12 .box010 {width: 780px;}	/* Plus 20 pixels pending */
+.container_12 .box011 {width: 860px;}	/* Plus 20 pixels pending */
+.container_12 .box012 {width: 960px;}	/* <-- In use */
+
+/* Esteban: My New boxes that include height */
+.container_12 .box013 {width: 80px; height:81px;}
+.container_12 .box014 {width: 80px; height:81px;}
+.container_12 .box015 {width: 181px; height:200px;}
+.container_12 .box016 {width: 30px; height:26px;}
+
+.container_12 .section01 {width: 500px; height:200px;}  /* 500px is a random number but 200px is the picture height */
+.container_12 .article01 {width: 500px; height:100px;}
+.container_12 .article02 {width: 248px; height:200px;}  /* I needed to decrease the WIDTH 2px from 250px to draw borders
+														  no sending the article to the next box row. 
+													   */
+
+.container_12 .section02 {width: 450px; height:200px;}
+.container_12 .section03 {width: 200px; height:200px;}
+
+/*-------------------------------------------------
+Esteban: Depending on the size of the grid it can 
+touch 1 or more containers. The smaller grid in the
+template has 60px width. As a grid is a class can
+be displayed as many times as the page design
+requires
+---------------------------------------------------*/
+
+.container_12 .grid_1 {width: 60px;}
+.container_12 .grid_2 {width: 140px;}
+.container_12 .grid_3 {width: 220px;}
+.container_12 .grid_4 {width: 300px;}
+.container_12 .grid_5 {width: 380px;}
+.container_12 .grid_6 {width: 460px;}
+.container_12 .grid_7 {width: 540px;}
+.container_12 .grid_8 {width: 620px;}
+.container_12 .grid_9 {width: 700px;}
+.container_12 .grid_10 {width: 780px;}
+.container_12 .grid_11 {width: 860px;}
+.container_12 .grid_12 {width: 940px;}
+
+/* =Prefix Extra Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------
+Esteban: For our project we are not going to use
+prefixes (free spaces at the left or at the right 
+of the containers). Here the available sizes
+---------------------------------------------------*/
+
+.container_12 .prefix_1 {padding-left: 80px;}
+.container_12 .prefix_2 {padding-left: 160px;}
+.container_12 .prefix_3 {padding-left: 240px;}
+.container_12 .prefix_4 {padding-left: 320px;}
+.container_12 .prefix_5 {padding-left: 400px;}
+.container_12 .prefix_6 {padding-left: 480px;}
+.container_12 .prefix_7 {padding-left: 560px;}
+.container_12 .prefix_8 {padding-left: 640px;}
+.container_12 .prefix_9 {padding-left: 720px;}
+.container_12 .prefix_10 {padding-left: 800px;}
+.container_12 .prefix_11 {padding-left: 880px;}
+
+/* =Suffix Extra Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------
+Esteban: For our project we are not going to use
+suffixes (free spaces at the left or at the right 
+of the containers). Here the available sizes
+---------------------------------------------------*/
+
+.container_12 .suffix_1 {padding-right: 80px;}
+.container_12 .suffix_2 {padding-right: 160px;}
+.container_12 .suffix_3 {padding-right: 240px;}
+.container_12 .suffix_4 {padding-right: 320px;}
+.container_12 .suffix_5 {padding-right: 400px;}
+.container_12 .suffix_6 {padding-right: 480px;}
+.container_12 .suffix_7 {padding-right: 560px;}
+.container_12 .suffix_8 {padding-right: 640px;}
+.container_12 .suffix_9 {padding-right: 720px;}
+.container_12 .suffix_10 {padding-right: 800px;}
+.container_12 .suffix_11 {padding-right: 880px;}
+
+/* `Push Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------
+Esteban: Push available sizes. Pushes + pulles 
+=< 960px. When the total amount of boxes > 960px
+the last drawn box is sent to the next line working
+like a break for an object "<br />". To make an 
+intentional break use the class="clear" in the 
+html file, after the box </div>
+---------------------------------------------------*/
+
+.container_12 .push_1 {left: 80px;}
+.container_12 .push_2 {left: 160px;}
+.container_12 .push_3 {left: 240px;}
+.container_12 .push_4 {left: 320px;}
+.container_12 .push_5 {left: 400px;}
+.container_12 .push_6 {left: 480px;}
+.container_12 .push_7 {left: 560px;}
+.container_12 .push_8 {left: 640px;}
+.container_12 .push_9 {left: 720px;}
+.container_12 .push_10 {left: 800px;}
+.container_12 .push_11 {left: 880px;}
+
+/* `Pull Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------
+Esteban: Pull available sizes. Pushes + pulles 
+=< 960px. When the total amount of boxes > 960px
+the last drawn box is sent to the next line working
+like a break for an object "<br />". To make an 
+intentional break use the class="clear" in the 
+html file, after the box </div>
+---------------------------------------------------*/
+
+.container_12 .pull_1 {left: -80px;}
+.container_12 .pull_2 {left: -160px;}
+.container_12 .pull_3 {left: -240px;}
+.container_12 .pull_4 {left: -320px;}
+.container_12 .pull_5 {left: -400px;}
+.container_12 .pull_6 {left: -480px;}
+.container_12 .pull_7 {left: -560px;}
+.container_12 .pull_8 {left: -640px;}
+.container_12 .pull_9 {left: -720px;}
+.container_12 .pull_10 {left: -800px;}
+.container_12 .pull_11 {left: -880px;}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------
+Esteban: Use clear to produce an intentional break 
+with the class="clear" in the html file, after the
+box </div>
+---------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+
+/*-------------------------------------------------
+Esteban: I guess next code is not being used for now, ?
+---------------------------------------------------*/
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+/*
+The following zoom:1 rule is specifically for IE6 + IE7.
+Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix {
+	zoom: 1;
+}

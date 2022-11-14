@@ -1,0 +1,171 @@
+body {
+	margin: 20px 0;
+	padding: 0;
+	background: #333333;
+	color: #CCCCCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #ECF3D5;
+}
+
+p, ul, ol, blockquote {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+h2 {
+	padding-left: 30px;
+	background: url(images/img4.gif) no-repeat left center;
+}
+
+h3, #colTwo h2 {
+	padding-left: 25px;
+	background: url(images/img5.gif) no-repeat left center;
+	font-size: medium;
+}
+
+h2 a, h3 a {
+	text-decoration: none;
+}
+
+h2 a:hover, h3 a:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: #ECF3D5;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.posted {
+	padding-top: 10px;
+	border-top: 1px solid #829346;
+	font-size: x-small;
+}
+
+/* Header */
+
+#header {
+	width: 780px;
+	height: 267px;
+	margin: 0 auto 5px auto;
+	background: #000000;
+}
+
+#header * {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	float: left;
+	margin: 0;
+	padding: 130px 0 0 30px;
+}
+
+#header h2 {
+	float: left;
+	margin: 0;
+	padding: 148px 0 0 0;
+	background: none;
+	font-size: small;
+}
+
+/* Content */
+
+#content {
+	width: 780px;
+	margin: 0 auto;
+}
+
+#colOne {
+	float: left;
+	width: 480px;
+	padding: 5px 20px 10px 20px;
+	background: #CCCCCC;
+}
+
+#colTwo {
+	float: right;
+	width: 210px;
+	padding: 25px 20px 0 20px;
+	background: #0C0C3F;
+}
+
+#colTwo ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+#colTwo h2 {
+	margin: 20px 0 10px 0;
+}
+
+#colTwo ul ul {
+	margin-left: 25px;
+}
+
+/* Content2 */
+
+#content2 {
+	clear: both;
+	width: 710px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#content2 h2 {
+	margin: 0;
+	padding: 20px 0 10px 0;
+	background: none;
+	font-size: medium;
+}
+
+#content2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#content2 li {
+	display: block;
+	float: left;
+	width: 155px;
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#content2 li li {
+	display: list-item;
+	float: none;
+	padding: 0;
+}
+
+/* Footer */
+
+#footer {
+	width: 710px;
+	height: 100px;
+	margin: 0 auto;
+	background: url(images/img8.jpg) no-repeat 0px 20px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 48px 0 0 20px;
+	font-size: x-small;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}

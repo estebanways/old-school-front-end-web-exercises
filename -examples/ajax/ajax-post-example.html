@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>jQuery Fundamentals :: Ajax</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/ajax-post.js"></script>
+</head>
+
+<body>
+  <form id="data-form" style="margin-bottom:50px" action="data/post-method.php">
+	<fieldset>
+		<label for="first-name">First Name</label>
+		<input name="first-name" value="" />
+		<label for="last-name">Last Name</label>
+		<input name="last-name" value="" />
+		
+		<label for="last-name">Disabled Field</label>
+		<input name="last-name" value="Disabled Value" disabled="disabled" />
+		
+	</fieldset>
+	
+	<a id="send" href="#">Sent data using $.post()</a>
+  </form>
+  
+  <div id="info"></div>
+  
+</body>
+</html>

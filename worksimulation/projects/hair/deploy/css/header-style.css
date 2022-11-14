@@ -1,0 +1,54 @@
+@import"reset.css";@import"superfish.css";
+
+.body{
+	background:#f8fdfd;
+	font:13px/21px Arial, Helvetica, sans-serif;
+}
+
+header a{color:#25a6cb;outline:none;cursor:pointer;text-decoration:none;}
+header a:hover{text-decoration:underline}
+
+/*********************************header*************************************/
+
+header {
+	border-bottom: 3px solid #eaf4f7;
+	width:100%;
+	position:relative; 
+	z-index:15;
+}
+
+header h1 {
+	padding:14px 0 0;
+	float: left;
+	margin:0;
+	font-size:0;
+	line-height:0;
+}
+
+.header-content {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 960px;
+    padding-left: 20px;
+}
+
+.header-content .header-banner {
+    width: 940px;
+}
+
+.header-content:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.header-logo {
+	display:inline-block; 
+	width:221px; 
+	height:55px; 
+	text-indent:-5000px; 
+	background:url(../images/home/logo.png) 0 0 no-repeat;
+}

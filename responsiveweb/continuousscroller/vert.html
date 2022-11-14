@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Continuous Scroller</title>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<style type="text/css">
+div#wn { 
+    position:relative; 
+    width:180px; height:80px; 
+    overflow:hidden;
+    }
+</style>
+<script src="js/dw_con_scroller.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if ( DYN_WEB.Scroll_Div.isSupported() ) {
+	
+	DYN_WEB.Event.domReady( function() {
+		
+		// arguments: id of scroll area div, id of content div
+		var wndo = new DYN_WEB.Scroll_Div('wn', 'lyr');
+		// see info online at http://www.dyn-web.com/code/scrollers/continuous/documentation.php
+		wndo.makeSmoothAuto( {axis:'v', bRepeat:true, repeatId:'rpt', speed:40, bPauseResume:true} );
+		
+	});
+}
+
+</script>
+</head>
+<body>
+    
+<h1>Continuous Scroller - Vertical</h1>
+
+
+<div id="wn">
+    <div id="lyr">
+        <div>Here is some text for vertical continuous scrolling. And some more for our demo. More, more, more, and yet more.</div>
+        <div id="rpt">Here is some text for vertical continuous scrolling. And some more for our demo. More, more, more, and yet more.</div>
+    </div>
+</div>
+
+<p>&nbsp;</p>
+
+
+</body>
+</html>

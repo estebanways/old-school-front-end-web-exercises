@@ -1,0 +1,58 @@
+ 
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0;position: relative;overflow: hidden;z-index: 9;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;position: relative;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+.flexslider .banner{font-size: 36px;line-height: 39px;color: #fff;font-weight: bold;text-transform: uppercase;position: absolute;bottom: 57px;right: 80px;width: 47%;text-align: right;letter-spacing: 1px;}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {margin: 0 0 0px; position: relative; }
+.flex-viewport {}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1;}
+
+/* Direction Nav */
+.flex-direction-nav a {width: 56px; height: 55px; margin: 0px 0 0; display: block;  position: absolute; bottom: 1px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav .flex-next {background: url('../images/home/next.jpg') no-repeat;right: 0;}
+.flex-direction-nav .flex-prev {background: url('../images/home/prev.jpg') no-repeat;left: 0;}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+  background-position: 0 -55px;
+}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: 0px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: url('') repeat;cursor: pointer; text-indent: -9999px;}
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{ background-position:0 0;}
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .active {opacity: 1; cursor: default;}
+
+@media screen and (max-width: 860px) {
+  
+}

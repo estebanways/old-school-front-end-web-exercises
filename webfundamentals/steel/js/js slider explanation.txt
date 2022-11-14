@@ -1,0 +1,1 @@
+en la caperta js hay un archivo que se llama scripts....... lo que hace este file es hacer un array con todas las imagenes que quieres en el slider..... luego obtengo el objeto del html con el id indicado y lo cambio

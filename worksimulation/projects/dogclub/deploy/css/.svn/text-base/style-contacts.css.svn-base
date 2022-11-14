@@ -1,0 +1,211 @@
+/*  --------------------------------------------
+ Accenture Teamwork project: Dog Club
+
+ - Natalia Diaz
+ - Marcelo Guzman
+ - Marco Pol
+
+ Last Modified: 2013/09/02
+
+ -------------------------------------------- */
+
+@import "../css/reset.css";
+@import "../css/skeleton.css";
+
+body {
+	font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #b5b5b5;
+	min-width: 960px;
+}
+
+.content {
+	padding: 0%;
+	/*background: url('../images/content_bg.png') repeat-x #fff;*/
+}
+
+.wrapper {
+	background-image: linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.73, rgb(255,255,255)),
+	color-stop(0.91, rgb(252,248,245)),
+	color-stop(1, rgb(234,221,202))
+	);
+	/* For Internet Explorer 5.5 - 7*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5edd3, endColorstr=#ffffff);
+	/*For Internet Explorer 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5edd3, endColorstr=#ffffff)";
+	background-color: #f5edd3;
+	/**/
+	padding-left: 15%;
+}
+.container {
+	width: auto;
+}
+
+.p2 {
+	margin-bottom: 15px;
+}
+.p3 {
+	margin-bottom: 11px;
+}
+
+.color1 {
+	color: #454544;
+}
+.color2 {
+	color: #c98322;
+}
+
+.link1 {
+	color: #3a3a3a;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: #569017;
+	text-decoration: none;
+}
+
+h3.orange {
+	color: #c98322;
+}
+h3.ind {
+	margin-bottom: 25px;
+	margin-left: 0px;
+}
+h3 {
+	font-size: 24px;
+	line-height: 29px;
+	color: #454544;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* ====================== Contact form =================================== */
+
+.contact-form {
+	padding: 0px 0 0 0;
+	position: relative;
+}
+
+.contact-form .success {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background: #fff;
+	border: 1px solid #000;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contact-form textarea, .contact-form input {
+	margin: 0;
+	font-size: 13px;
+	border: 1px solid #d3d3d3;
+	color: #b5b5b5;
+	padding: 7px 9px 9px;
+	outline: none;
+	position: relative;
+	font-family: Trebuchet MS1, Trebuchet MS, sans-serif;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.contact-form input {
+	width: 270px;
+}
+
+.contact-form textarea {
+	overflow: auto;
+	width: 510px;
+	height: 246px;
+	resize: none;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+.contact-form label {
+	display: inline-block;
+	position: relative;
+	min-height: 55px;
+	overflow: hidden;
+}
+
+.contact-form label.message {
+	display: block;
+	padding-bottom: 0;
+}
+
+.contact-form .link1 {
+	margin-left: 13px;
+}
+
+.contact-form .error, .contact-form .empty, .contact-form .success {
+	display: none;
+}
+.contact-form .error, .contact-form .empty {
+	text-align: left;
+	font-weight: normal;
+	color: red;
+	font-size: 11px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+.contact-form .buttons2 {
+	overflow: hidden;
+	text-align: right;
+	position: relative;
+	clear: both;
+	padding-top: 16px;
+}
+
+.contact-form .buttons2 a {
+	cursor: pointer;
+	margin-top: 0;
+	text-align: center;
+}
+
+.contact-form span {
+	display: block;
+	margin: 0px 0 0 5px;
+}
+
+.map_wrapper {
+	overflow: hidden;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.map_canvas {
+	width: 100%;
+	height: 258px;
+}
+
+.adress {
+}
+.adress span {
+	display: inline-block;
+	width: 74px;
+}
+.adress dt {
+	margin-bottom: 14px;
+}

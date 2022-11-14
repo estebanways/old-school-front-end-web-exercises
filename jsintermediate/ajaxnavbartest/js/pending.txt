@@ -1,0 +1,1 @@
+ie compatibility (remove console.log entries and alerts)

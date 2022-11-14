@@ -1,0 +1,4 @@
+- JSLint and explorer compatibility
+- Clean up the Bookmark Bar from the dirty css or add the visited snippet from the last course.
+- I did not create a function on click in the assignment. Create 
+one later based on the file JavaScriptTemplate.js

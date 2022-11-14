@@ -1,0 +1,144 @@
+  	<!--==============================content================================-->
+    <section id="content">
+         <div class="container_12">
+            <article class="grid_4">
+                    <div class="inner-block">
+                        <h3 class="p8">We Specialize In </h3>
+                        <div class="page2-box1">
+                            <div class="inner1">
+                                1
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Hair transplants</a>
+                                <p>Nod tincidunt ut laoreet dolore magna aliquam erat volutpat tisi.</p>
+                            </div>
+                        </div>
+                        <div class="page2-box1">
+                            <div class="inner1">
+                                2
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Hair transplant repair </a>
+                                <p>Laoreet dolore magna aliquam erat sere volutpat tisi. Enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="page2-box1 last3">
+                            <div class="inner1">
+                                3
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Hair loss treatments</a>
+                                <p>Nod tincidunt ut laoreet dolore magna aliquam erat volutpat tisi.</p>
+                            </div>
+                        </div>
+                        <div class="page2-box1 last3">
+                            <div class="inner1">
+                                4
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Women hair loss </a>
+                                <p>Laoreet dolore magna aliquam erat sere volutpat tisi. Enim ad minim.</p>
+                            </div>
+                        </div>
+                        <div class="page2-box1 last3">
+                            <div class="inner1">
+                               5
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Hair loss treatments</a>
+                                <p>Nod tincidunt ut laoreet dolore magna aliquam erat volutpat tisi.</p>
+                            </div>
+                        </div>
+                        <div class="page2-box1">
+                            <div class="inner1">
+                                6
+                            </div>
+                            <div class="extra-wrap">
+                                <a href="#">Body Hair Transplant </a>
+                                <p>Laoreet dolore magna aliquam erat sere volutpat tisi. Enim ad minim.</p>
+                            </div>
+                        </div>
+                        <h3>Why Choose us</h3>
+                        <ul class="list1">
+                            <li><a href="#">Lorem ipsum dolor sit met consectetuer adip</a></li>
+                            <li><a href="#">SecIng elit iam nonummy nibh</a></li>
+                            <li><a href="#">Euismod tincidunt ut laoreet agna aliqu</a></li>
+                            <li><a href="#">Am erat bolutpat ut wisi enim</a></li>
+                            <li><a href="#">Minim veniam quis lorem ipsum dolor sit</a></li>
+                            <li><a href="#">Amet consectetuer adipiscing elit</a></li>
+                            <li><a href="#">Diam nonummy nibh euismod tincidunt ut</a></li>
+                            <li><a href="#">Laoreet agna aliquam erateres</a></li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="grid_8">
+                    <div class="inner-block">
+                        <h3 class="p9">We Have More Than 30 years of Experience</h3>
+                        <a href="#">Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante po trsen Donec sagittis euismod purus lreom ster prtsre haslelus mislie.</a>
+                        <p class="last2">Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nislt aliquip ex ea commod. Consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolo.</p>
+                        <div class="thumbs">
+                            <div class="page2-box2">
+                                <span class="text8">a</span>
+                                <a href="#">Praesentu vestibulumet neam nonum lroe porste.</a>
+                                <p>Fed tincidunt ut laoreet doloe magna aliquam ser eerat volat tisi. Enim ad minim veniamui. ostrud exerci tation ullam.</p>
+                            </div>
+                            <div class="page2-box2">
+                                <span class="text8">b</span>
+                                <a href="#">Praesentu vestibulumet neam nonum lroe porste.</a>
+                                <p>Fed tincidunt ut laoreet doloe magna aliquam ser eerat volat tisi. Enim ad minim veniamui. ostrud exerci tation ullam.</p>
+                            </div>
+                            <div class="page2-box2">
+                                <span class="text8">c</span>
+                                <a href="#">Praesentu vestibulumet neam nonum lroe porste.</a>
+                                <p>Fed tincidunt ut laoreet doloe magna aliquam ser eerat volat tisi. Enim ad minim veniamui. ostrud exerci tation ullam.</p>
+                            </div>
+                            <div class="clear"></div>
+                             </div>
+                             </div>
+                            <div class="inner-block">
+                                <h3 class="p10">A High Quality Surgical Team</h3>
+                            </div>
+                            <div class="thumbs1">
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/about/page2-img1.png" alt=""></figure>
+                                        <a href="#">Marta Healy</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/about/page2-img2.png" alt=""></figure>
+                                        <a href="#">John Franklin </a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/about/page2-img3.png" alt=""></figure>
+                                        <a href="#">Laura Stegner</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/about/page2-img4.png" alt=""></figure>
+                                        <a href="#">Patrick Pool</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/about/page2-img5.png" alt=""></figure>
+                                        <a href="#">Mark Johnson</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>               
+                </article>
+            <div class="clear"></div>                
+        </div>
+    </section>
+    
+	<!--==============================footer=================================-->

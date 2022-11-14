@@ -1,0 +1,24 @@
+{
+	"recipes":[
+		{
+			"id": "bread",
+			"title" : "Magic Bread",
+			"image" : "images/bread.jpg",
+			"text" : "Bread"
+		},
+
+		{
+			"id": "curry",
+			"title" : "Twofer Curry",
+			"image" : "images/curry.jpg",
+			"text" : "Curry"
+		},
+
+		{
+			"id": "tomatoes",
+			"title" : "Great Tomatoes",
+			"image" : "images/tomatoes.jpg",
+			"text" : "Tomatoes"
+		}
+	]
+}

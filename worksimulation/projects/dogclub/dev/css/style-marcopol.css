@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+nav{ position:relative; margin: 0px 0 0 0;float: right;}
+.sf-menu ul {position:absolute;top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {float:left;position:relative}
+
+.sf-menu>li>a{
+  display:block;
+  position:relative;
+  padding: 28px 31px;
+  text-transform: uppercase;
+}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{
+  background: #c2832d;
+  padding-top: 42px;
+  padding-bottom: 38px;
+  color: #fff;
+}
+
+.sf-menu>li{
+  
+}
+.sf-menu a{
+  font-size: 12px;
+  line-height: 16px;
+  color:#fff;
+  font-weight: bold;
+}
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu>li>ul,.sf-menu>li.sfHover>ul{background: #c2832d;left:0;top:90px;width: 180px;padding:22px 0 30px; z-index:99}
+.sf-menu>li>ul>li{}
+.sf-menu>li>ul>li>a{display: block;padding: 3px 25px;font-size: 12px;text-transform: uppercase;font-weight: bold;text-shadow: 1px 1px 0 rgba(199,142,63,0.51);}
+.sf-menu>li>ul>li>a:hover, .sf-menu li.sfHover li.sfHover>a{background: #fff;color: #c2832d;}
+
+/*================================>> 3 Level <<========================================*/
+.sf-menu li li ul{padding:0 0 0 40px;background: #c9943f;z-index:99;position: static;overflow: hidden;}
+.sf-menu li li li{}
+.sf-menu li li li a{text-transform: uppercase;text-shadow: 1px 1px 0 rgba(199,142,63,0.51);}
+.sf-menu li li li a:hover{}
+
+.sf-menu>li>a .menu-arrow{
+    display:block;
+    width:5px;
+    height:3px;
+    left: 50%;
+    bottom: 15px;
+    position: absolute;
+    text-indent:-100%;
+    font-size:0;
+    line-height:0;
+    background: url('../images/home/menu_arrow.png') no-repeat;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+/* ================== FONT ====================================== 
+
+.links, .mainMenu a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ================== HOVER ====================================== 
+
+header .links a, .mainMenu>li>a {transition: all 0.5s ease;}
+
+
+/* ================== NAV ======================================== 
+
+nnav { position:relative; margin: 0px 0 0 0;float: right; }
+
+a {
+  font-size: 12px;
+  line-height: 16px;
+  color:#fff;
+  font-weight: bold;
+}
+
+.mainMenu ul { position:absolute;/* display:none; }
+
+.mainMenu ul li { 
+  width:100%;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+ }
+
+.mainMenu li { float:left;position:relative }
+
+.mainMenu>li>a {
+  display:block;
+  position:relative;
+  padding: 28px 31px;
+  text-transform: uppercase;
+}
+
+.mainMenu>li>a:hover,.mainMenu>li.current>a {
+  background: #c2832d;
+  padding-top: 42px;
+  padding-bottom: 38px;
+  color: #fff;
+}
+
+/*********************Sub Menu *******************************************
+
+ 
+.mainMenu li:hover > ul li {
+    height: 30px;
+    width: 120%;
+    background: #c2832d;
+    text-transform: uppercase;
+	z-index: 100;
+	padding: 0px 0 5px 5px;
+	color:white;
+}
+
+li:hover>a {
+	color: #b5b5b5;
+	outline: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================== HEADER ====================================== */
+/*
+header {
+  position: relative;
+  background: url('../images/header_bg.jpg') 50% 0 repeat-x;
+  padding-bottom: 3px;
+}
+
+header .links {
+  height: 39px;
+  text-align: right;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 21px 25px 0 0;
+  font-weight: bold;
+}
+
+header .links a {
+  color: #ecd13e;
+  text-decoration: underline;
+}
+
+header .links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .links li {
+  display: inline-block;
+  margin-left: 42px;
+}
+
+header h1 {
+  padding-top: 20px;
+  width: 224px;
+  float: left;
+}
+
+header h1 a {
+  display:block;
+  width:224px;
+  height:97px;
+  background:url(../images/logo.png) 0 0 no-repeat;
+  text-decoration:none;
+  text-indent:-9999px;
+}
+
+.header_top{
+  background: url('../images/header_top.png') 50% 0 repeat-x #c78e3f;
+  border-bottom: 3px solid #ba8031;
+  padding: 0px 0 18px 39px;
+  box-shadow: 0 0 15px #82551a;
+}
+
+*/

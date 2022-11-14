@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>JavaScript Animation</title>
+
+
+<script type="text/javascript">
+<!--
+
+// image object
+var imgObj = null;
+
+// Animate left/right depending on the button clicked
+var animate ;
+
+
+/* Define/initailize image object with the custom status */
+
+function init(){
+
+   // Obtain the DOM  elementid
+   imgObj = document.getElementById('myImage');
+
+   // Set the object position
+   imgObj.style.position= 'relative'; 
+
+   // The image will display out of the body on the left
+   imgObj.style.left = '-300px';
+
+   //imgObj.style.right = '0px';
+    
+   // Log how many pixels the object will move
+   imgObj.style.right = '0px';
+   var pxToRight = imgObj.style.right;
+
+}
+
+
+/* Set the left position */
+
+function rightPause(){
+   // Stops the animation
+   clearTimeout(animate);
+   // Defines where the image will stop animating based on the left position.
+   // We defined to show only the wall at the right side of the image.
+   imgObj.style.left = '-200px';
+   //imgObj.style.right = '200px'; 
+}
+
+
+/* Starts the animation from Left to Right at the event onclick */
+
+function moveRight(){
+   // Initial state:
+   // At the very beginning position Left is gonna be -300 px as defined in init() section.
+   // And the postion Right (to count the movement) is gonna be 0.
+
+   // After a click on Animate Left side when code 'if (imgObj.style.right < "0px") {' in
+   // function moveLeft():
+   // moveLeft() function will run 4 times so -10 -10 -10 -10. (Check with console).
+   // The Right position will change to -10 px instead of its initial status of 0 px. 
+   // (Check with Firebug).
+
+   // After a click on Animate Left side when code 'if (imgObj.style.right < "1px") {' in
+   // function moveLeft():
+   // moveLeft() function will run ONLY 2 times so -10 -10. (Check with console).
+   // The Right position will change to 10 px instead of its initial status of 0 px.
+   // (Check with Firebug).
+
+   // Note: Check Left positions with console and Firebug.
+
+   // Left position will be incremented by 10 every continuous function cycle.
+   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+   
+   // Right will be incremented by 10 every continuous function cycle.
+   imgObj.style.right = parseInt(imgObj.style.right) + 10 + 'px';
+
+   // We need to stop the animation from Left to Right in case of the image gets the
+   // place we need it to be. 
+   // After a click on Start animation when code 'if (imgObj.style.right < "0px") {' in
+   // The fuction moveRight() will run 3 times (10 + 10 + 10) first time
+   // and after moveLeft() will run 4 times (10 + 10 + 10 + 10).
+   // Function moveLeft() always runs 4 times with the if set to 0 px and 2 times
+   // with the if set to 1px.
+   if (imgObj.style.right > "30px") {
+      // Fix the current image position
+      rightPause();
+   } else {
+         //Animate the box.
+         animate = setTimeout(moveRight,20); // call moveRight in 20msec
+         // Check the px counters
+         console.log("Move >>> Position Left:" + imgObj.style.left);
+         console.log("Move >>> Position Right:" + imgObj.style.right);
+   }
+}
+
+
+/* Set the left position */
+
+function LeftPause(){
+   clearTimeout(animate);
+   imgObj.style.left = '-300px';
+   //imgObj.style.right = '200px'; 
+}
+
+
+/* Starts the animation from Right to Left at the event onclick */
+
+function moveLeft(){
+   // Initial state:
+   // At the very beginning position Left is gonna be -300 px as defined in init() section.
+   // And the postion Right (to count the movement) is gonna be 0.
+
+   // After a click on Animate Left side when code 'if (imgObj.style.right < "0px") {' in
+   // function moveLeft():
+   // moveLeft() function will run 4 times so -10 -10 -10 -10. (Check with console).
+   // The Right position will change to -10 px instead of its initial status of 0 px. 
+   // (Check with Firebug).
+
+   // After a click on Animate Left side when code 'if (imgObj.style.right < "1px") {' in
+   // function moveLeft():
+   // moveLeft() function will run ONLY 2 times so -10 -10. (Check with console).
+   // The Right position will change to 10 px instead of its initial status of 0 px.
+   // (Check with Firebug).
+
+   // Note: Check Left positions with console and Firebug.
+
+   // Left position will be decremented by 10 every continuous function cycle.
+   imgObj.style.right = parseInt(imgObj.style.right) - 10 + 'px';
+   
+   // Right will be decremented by 10 every continuous function cycle.
+   imgObj.style.left = parseInt(imgObj.style.left) - 10 + 'px';
+
+   // We need to stop the animation from Right to Left in case of the image gets the
+   // place we need it to be.
+   // After a click on Start animation when code 'if (imgObj.style.right < "0px") {' in
+   // The fuction moveRight() will run 3 times (10 + 10 + 10) first time
+   // and after moveLeft() will run 4 times (10 + 10 + 10 + 10).
+   // Function moveLeft() always runs 4 times with the if set to 0 px and 2 times 
+   // with the if set to 1px.
+   if (imgObj.style.right < "0px") {
+      // Fix the current image position
+      LeftPause();
+   } else {
+         //Animate the box.
+         animate = setTimeout(moveLeft,20); // call moveLeft in 20msec
+         // Check the px counters
+         console.log("Move <<< Position Right:" + imgObj.style.right);
+         console.log("Move <<< Position Left:" + imgObj.style.left);
+   }
+}
+
+
+/* 
+
+This function sample has the increment with animate
+
+function moveLeft(){
+   //console.log("Position Right:" + imgObj.style.right);
+  // console.log("Position Left:" + imgObj.style.left);
+
+      if (imgObj.style.left < "260px") {
+         console.log("Llegaste:" + imgObj.style.right);
+         //stop();
+         //imgObj.style.right = "0px";
+
+      } else {
+         imgObj.style.right = parseInt(imgObj.style.right) - 10 + 'px';
+         animate = setTimeout(moveLeft,20); // call moveRight in 20msec
+         console.log("Position Right:" + imgObj.style.right);
+         console.log("Position Left:" + imgObj.style.left);
+      }
+   
+}
+
+*/
+
+
+/*
+// Increases the velocity by X
+function moveRight(){
+
+	for ( i = 0; i < 2; i++ ) {
+
+	   imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+	   animate = setTimeout(moveRight,20); // call moveRight in 20msec
+	   //console.log(imgObj.style.left);
+	}
+}
+*/
+
+
+/* Set the left position */
+function stop(){
+   clearTimeout(animate);
+   imgObj.style.left = '0px'; 
+}
+
+
+window.onload = init;
+//-->
+</script>
+
+
+</head>
+<body>
+<form>
+<img id="myImage" src="images/sidecar-placeholder.jpg" />
+<p>Controls:</p>
+<input type="button" value="Start" onclick="moveRight();" />
+
+<input type="button" value="Animate Left" onclick="moveLeft();" />
+
+<input type="button" value="Stop" onclick="stop();" />
+</form>
+</body>
+</html>

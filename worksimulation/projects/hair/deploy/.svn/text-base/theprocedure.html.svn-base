@@ -1,0 +1,106 @@
+
+	<!--==============================content================================-->
+    <section id="content">
+         <div class="container_12">            
+                <article class="grid_8">
+                            <div class="inner-block">
+                                <h3 class="p12">The Best Quality Assurance Programs </h3>
+                            </div>
+                            <div class="thumbs1">
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/theprocedure/page3-img1.png" alt=""></figure>
+                                        <a href="#">Safety Programs </a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/theprocedure/page3-img2.png" alt=""></figure>
+                                        <a href="#">Dense Packing</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/theprocedure/page3-img3.png" alt=""></figure>
+                                        <a href="#">Eyebrow Restoration </a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/theprocedure/page3-img4.png" alt=""></figure>
+                                        <a href="#">No Waste of Donor Hair </a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="inner-block">
+                                    <div class="page2-box3">
+                                        <figure class="page2-img1"><img src="images/theprocedure/page3-img5.png" alt=""></figure>
+                                        <a href="#">Painless Transplantation</a>
+                                        <p>Fed tincidunt ut laoreet dol.</p>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                                <h3 class="p13">Permanent Hair Loss Solutions</h3>
+                                <div class="page3-box1">
+                                    <article class="grid_3 alpha">
+                                        <div class="inner-block">
+                                            <figure class="page3-img1 img-bot"><img src="images/theprocedure/page3-img6.png" alt=""></figure>
+                                        </div>
+                                    </article>
+                                    <article class="grid_5 omega">
+                                        <span class="text10">Lerbortis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</span>
+                                        <p>Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lobortis nislt aliquip ex ea com.</p>
+                                        <a href="#" class="button2">More</a>
+                                    </article>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="page3-box1">
+                                    <article class="grid_3 alpha">
+                                        <div class="inner-block">
+                                            <figure class="page3-img1 img-bot"><img src="images/theprocedure/page3-img7.png" alt=""></figure>
+                                        </div>
+                                    </article>
+                                    <article class="grid_5 omega">
+                                        <span class="text10">Sere sim, pulvinar ac, lorem. Vestibulum sed ante lor.</span>
+                                        <p>Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lobortis nislt aliquip ex ea com.</p>
+                                        <a href="#" class="button2">More</a>
+                                    </article>
+                                    <div class="clear"></div>
+                                </div>             
+                </article>
+                <article class="grid_4">
+                    <div class="inner-block">
+                        <h3 class="p14">Personal Hair Loss Plan for Your Treatments</h3>
+                        <a href="#">Dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante po trsen.</a>
+                        <p>Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Fed tincidunt ut laoreet dolore magna aliquam.</p>
+                        <figure class="page3-img2 img-bot"><img src="images/theprocedure/page3-img8.png" alt=""></figure>
+                        <ul class="list1">
+                            <li><a href="#">Lorem ipsum dolor sit met consectetuer adip</a></li>
+                            <li><a href="#">SecIng elit iam nonummy nibh</a></li>
+                            <li><a href="#">Euismod tincidunt ut laoreet agna aliqu</a></li>
+                            <li><a href="#">Am erat bolutpat ut wisi enim</a></li>
+                            <li><a href="#">Minim veniam quis lorem ipsum dolor sit</a></li>
+                            <li><a href="#">Amet consectetuer adipiscing elit</a></li>
+                        </ul>
+                        <h3 class="p15">Hair Transplant News </h3>
+                        <div class="page3-box3">
+                            <time class="time1" datetime="2012-09-05T15:31">28.03.2013</time>
+                            <p>Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                        </div>
+                        <div class="page3-box3 last3">
+                            <time class="time1" datetime="2012-09-05T15:31">30.03.2013</time>
+                            <p>Fed tincidunt ut laoreet dolore magna aliquam erat volutpat tisi. Enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                        </div>
+                        <a href="#" class="button2">More</a>
+                    </div>
+                </article>
+            <div class="clear"></div>                
+        </div>
+    </section>
+    
+	<!--==============================footer=================================-->
+   

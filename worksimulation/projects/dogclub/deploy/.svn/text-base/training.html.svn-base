@@ -1,0 +1,84 @@
+
+<link href="css/style-training.css" media="screen" type="text/css" rel="stylesheet"/>		
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="css/IE8.css">
+<script>document.createElement('footer');</script>
+<![endif]-->
+
+
+<script type="text/javascript" src="http://www.vanime.net/core/ready.js"></script>
+	
+<div class="container_24">
+	<div class="wrapper_TBN">
+		<article class="grid_24">
+			<h3 class="ind">training programs</h3>
+			<ul class="program">
+				<li class="wrapper_TBN">
+					<div class="grid_7 alpha">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training1.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis
+								 natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas tris- tique 
+								 orci ac sem. Duis ultricies pharetra </p>
+								 <a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="grid_7 prefix_1">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training2.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum 
+								sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas 
+								tris- tique orci ac sem. Duis ultricies pharetra </p>
+								<a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="grid_7 prefix_1 omega">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training3.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum 
+								sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas 
+								tris- tique orci ac sem. Duis ultricies pharetra </p>
+								<a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="wrapper_TBN">
+					<div class="grid_7 alpha">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training4.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis 
+								natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas tris- tique 
+								orci ac sem. Duis ultricies pharetra </p>
+								<a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="grid_7 prefix_1">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training5.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis 
+								natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas tris- tique 
+								orci ac sem. Duis ultricies pharetra </p>
+								<a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="grid_7 prefix_1 omega">
+						<div class="program">
+							<p class="p3"><a class="img_wrap" href="#"><img alt="" src="images/training/training6.jpg"></a></p>
+							<p class="p3"><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. </strong></p>
+							<p class="p2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum 
+								sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at. cursus nec luctus a lorem. Maecenas 
+								tris- tique orci ac sem. Duis ultricies pharetra </p>
+								<a class="link1_TBN" href="#">Read More</a>
+						</div>
+					</div>
+			 	</li>
+			</ul>
+		</article>
+	</div>
+</div>	

@@ -1,0 +1,75 @@
+
+/**************************************** 
+	CSS Document
+	
+	Name Site: Simple JavaScript Gallery
+	Date: June 2013
+	Version: 1.0
+	Author: Rolando Aguilar Ulate
+*****************************************/
+
+
+body
+{
+	background: none repeat scroll 0 0 #9CC;
+}
+
+header
+{
+	float: clear;
+	width: 880px;
+	height: 100px;
+	padding: 0 10px;
+}
+
+header h1
+{
+	color: #060 ;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 55px;
+	font-weight: lighter;
+}
+
+#wrapper
+{
+	height: 600px;
+	margin: 80px auto;
+	width: 900px;
+}
+
+#imagesContainer
+{
+	float: left;
+	height: 400px;
+	overflow: hidden;
+	width: 600px;
+}
+
+#images
+{
+	height: 400px;
+	left: 0;
+	list-style: none outside none;
+	position: relative;
+	top: 0;
+	width: 5000px;	
+}
+
+#images li
+{
+	float: left;
+}
+
+#leftArrow
+{
+	float: left;
+	margin: 20px;
+	padding: 90px 0 10px;
+}
+
+#rightArrow
+{
+	float: left;
+	margin: 20px;
+	padding: 90px 0 10px;
+}

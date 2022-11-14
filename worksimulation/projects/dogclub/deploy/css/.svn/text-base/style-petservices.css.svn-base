@@ -1,0 +1,168 @@
+/*
+ Document   : Pet Services Page
+ Created on : july 29, 2013
+ Author     : Natalia Díaz
+ Description: Purpose of the stylesheet follows.
+ */
+
+.wrapper0 {
+	background-image: linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 73%, rgb(252,248,245) 91%, rgb(234,221,202) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.73, rgb(255,255,255)),
+	color-stop(0.91, rgb(252,248,245)),
+	color-stop(1, rgb(234,221,202))
+	);
+	/* For Internet Explorer 5.5 - 7*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5edd3, endColorstr=#ffffff);
+	/*For Internet Explorer 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5edd3, endColorstr=#ffffff)";
+	background-color: #f5edd3;
+}
+
+.container {	
+	margin: 0 auto;
+}
+
+h2 {
+	
+	margin-left: 0px;
+}
+
+/*pet services*/
+
+.petServicesList {
+	margin: 0% 5% 0% 0%;
+	height: 380px;
+	width: 287px;
+	float: left;
+}
+.petServicesList ul{
+	margin:0px 0px 0px 7px; 
+	padding:0px 0px 0px 7px;
+	
+}
+.petServicesList li {
+	list-style-image: url(../images/home/marker1.png);
+	color: #D3D3D3;
+	margin-bottom: 10%;
+}
+
+.petServicesList span {
+	color: #393B38;
+}
+
+/* articles*/
+.articles {
+	height: 332px;	
+	float: left;
+}
+
+.articles span {
+	color: #393B38;
+}
+.articles em {
+	padding: 2px;
+	color: #C98323;
+	font: 13px Arial;
+	font-weight: bold;
+}
+
+.articles ul{
+	list-style: none;
+	margin:0px; 
+}
+
+.articles ul p {
+	color: #D3D3D3;
+}
+.articles li{
+	padding:0% 0% 5% 1%;
+}
+
+.articles li a {
+	padding: 0%;
+}
+
+.articles {
+	padding: 25px 0 0 0;
+	display: block;
+	float: left;
+	padding: 0% 0% 0% 30%;
+	display: block;
+	list-style: none;
+	position: absolute;
+}
+
+.articles img {
+	float: left;
+	padding: 1% 2% 2% 0%;
+}
+
+.articles img:fistchild {
+
+	padding: 9px 0 0 9px;
+}
+
+/*first*/
+.first {
+	margin: auto;
+	border-bottom: 1px solid #D3D3D3;
+	height: 640px;
+}
+
+/*testimonials*/
+
+.testimonials {
+	height: 380px;
+	width: 400px;
+	padding: 2% 0% 0% 0%;
+	position: absolute;
+}
+
+.testimonials span {
+	color: #c98323;
+}
+
+.testimonials p {
+	color: #D3D3D3;
+}
+
+.testimonials p span {
+	color: #393B38;
+	font-weight: bold;
+}
+
+/*dog Club Pricing*/
+
+.dogClubPricing {
+	height: 380px;
+	width: 450px;
+	padding: 2% 0% 0% 47%;
+	float: left;
+}
+
+a {
+	color: #393B38;
+	font-weight: bold;
+}
+
+.dogClubPricing span {
+	color: #c98323;
+}
+
+.dogClubPricing .prices p {
+	font-weight: bold;
+	color: #393B38;
+}
+
+.dogClubPricing p {
+	color: #D3D3D3;
+}
+

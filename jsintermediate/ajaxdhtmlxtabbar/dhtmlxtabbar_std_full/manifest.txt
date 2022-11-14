@@ -1,0 +1,12 @@
+Skin: dhx_skyblue
+
+======== JS CODE =========
+./dhtmlxcommon.js
+../dhtmlxTabbar/codebase/dhtmlxtabbar.js
+../dhtmlxTabbar/codebase/dhtmlxtabbar_start.js
+./dhtmlxcontainer.js
+../dhtmlxDataProcessor/codebase/dhtmlxdataprocessor.js
+../dhtmlxDataStore/codebase/datastore.js
+
+======== CSS CODE ========
+../dhtmlxTabbar/codebase/dhtmlxtabbar.css

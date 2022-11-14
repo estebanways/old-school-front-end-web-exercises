@@ -1,0 +1,68 @@
+/* Total width is 181 * 5 = 905, plus borders */
+/* Total height is 200 * 24 = 4800, plus borders */
+/* The size of every particular style box, is based on its origin image */
+/* The border property grows from the "real" image surface limit, */
+/* created in the style, when needed */
+
+/* Pending!!! the centered or auto framework */
+/* Pending the backgrounds*/
+
+#box1 {position:absolute; color:black; top:25px; left:50px;
+height:200px; width:181px; border: 1px solid #cc8800; background-image:url(../images/blackbox.gif); overflow:scroll; }
+
+#box2 {position:absolute; color:black; top:25px; left:230px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box3 {position:absolute; color:black; top:25px; left:410px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/blackbox3.gif); }
+
+#box4 {position:absolute; color:black; top:25px; left:590px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/blackbox3.gif); }
+
+#box5 {position:absolute; color:black; top:25px; left:770px;
+height:200px; width:181px; border: 0px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box6 {position:absolute; color:black; top:224px; left:50px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box7 {position:absolute; color:black; top:224px; left:230px;
+height:200px; width:181px; border: 1px solid #cc8800; background-image:url(../images/blackbox7.gif);}
+
+#box8 {position:absolute; color:black; top:224px; left:410px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box9 {position:absolute; color:black; top:224px; left:590px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box10 {position:absolute; color:black; top:224px; left:770px;
+height:200px; width:181px; border: 1px solid #cc8800; background-image:url(../images/greenmar.gif); overflow:auto; }
+
+#box11 {position:absolute; color:black; top:423px; left:50px;
+height:200px; width:181px; border: 1px solid #cc8800; background-image:url(../images/greenmar.gif); overflow:auto }
+
+#box12 {position:absolute; color:black; top:423px; left:230px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box13 {position:absolute; color:black; top:423px; left:410px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/seamonsters1.gif); }
+
+#box14 {position:absolute; color:black; top:423px; left:590px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/seamonsters3.gif); }
+
+#box15 {position:absolute; color:black; top:423px; left:770px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box16 {position:absolute; color:black; top:622px; left:50px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box17 {position:absolute; color:black; top:622px; left:230px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }
+
+#box18 {position:absolute; color:black; top:622px; left:410px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/seamonsters2.gif); }
+
+#box19 {position:absolute; color:black; top:622px; left:590px;
+height:200px; width:181px; border: 0px solid #cc8800; background-image:url(../images/seamonsters4.gif); }
+
+#box20 {position:absolute; color:black; top:622px; left:770px;
+height:200px; width:181px; border: 1px solid #cc8800; /* background-image:url(../images/greenmar.gif); */ }

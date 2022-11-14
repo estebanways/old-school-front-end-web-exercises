@@ -1,0 +1,171 @@
+
+.services {
+	position: relative;
+	width: 960px;
+	margin: 70px auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.services p{
+	font:normal normal lighter 14px normal Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: #434746;
+}
+
+.services ul{
+	overflow: hidden;
+	margin-top: 28px;
+}
+
+.modern-services {
+	/*background:red;*/
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+	width:620px;	
+}
+
+.services-list {
+	/*background:yellow;*/
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;		
+	height: 741px;
+	width:300px;	
+}
+
+h4 {
+	display: block;
+	-webkit-margin-before: 1.33em;
+	-webkit-margin-after: 1.33em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;	
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-family: 'Oswald', sans-serif;	
+}
+
+h4.ind2 {
+	margin-bottom: 40px;	
+}
+
+.grid-8 {
+	/*background:#ccc;*/
+	margin-top:75px;
+	width:620px;
+	float: left;
+	display: inline;
+	margin-right: 20px;	
+	vertical-align: top;
+}
+
+.grid-4 {
+	margin-top:75px;
+	width: 300px;
+	float: left;
+	display: inline;	
+	vertical-align:top;
+	overflow: hidden;
+}
+
+.my-titles {
+	background: blue;
+	margin-top:155px;
+	font:normal 28px/34px 'Oswaldo',arial;
+	text-transform:uppercase;
+	margin-bottom:31px;
+}
+
+.modern-services > p {
+	color:#5a5a5a;
+}
+
+.destacado  {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: #010101;
+	bottom:0;
+	line-height: 24px;
+	list-style:none;
+}
+
+.destacado a {
+	color: #010101;
+	font-size:12px;
+}
+
+.destacado a:hover {
+	color: red;
+}
+
+.ensobre {	
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	color: #474747;	
+	text-align:justify;
+	width: 575px;
+	height: 78px;
+	margin-bottom: 28px;
+	display: block;
+	overflow: hidden;
+}
+
+.m_bota {
+	color:#a60;
+	margin-bottom:22px;
+}
+.lista1 {
+	overflow: hidden;
+}
+
+.lista1 li {
+	background: url(../images/home/marker1.png) 0 1px no-repeat;
+	padding-left: 26px;
+	line-height: 17px;	
+	width: 620px;
+	height: 30px;
+}
+
+.lista1 li a {
+	
+	cursor:pointer;
+	color:#5a5a5a;
+	width: 215px;
+	/*height: 16px;	*/	
+	font: italic 14px/21px Arial, Helvetica, sans-serif;	
+}
+.lista1 li a:hover {
+	color: #b22525;
+	text-decoration: none		
+} 
+.p3 {
+
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	color: #474747;	
+	text-align:justify;
+	width: 575px;
+	height: auto;	
+	margin-bottom: 28px;
+}
+
+.p4 {
+
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	color: #474747;	
+	text-align:justify;
+	width: 575px;
+	height: auto;		
+	margin-bottom: 31px;
+}
+
+.service_list {
+	/*background:yellow;*/
+	margin-bottom: 69px;
+}
+.services-list .p5 {
+	display: block;
+	width: 270px;
+	margin-bottom: 16px;
+} 

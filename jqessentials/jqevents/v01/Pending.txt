@@ -1,0 +1,2 @@
+Tested only on FF and Explorer.
+On IE 9 the program is not working for now.

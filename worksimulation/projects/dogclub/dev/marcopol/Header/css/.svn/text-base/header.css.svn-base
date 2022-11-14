@@ -1,0 +1,124 @@
+@import "../css/reset.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+html { width:100% }
+
+body {
+  font-family:Trebuchet MS1, Trebuchet MS, sans-serif;
+}
+
+/* ================== CLASS ====================================== */
+
+.mainContainer {
+  position: relative; width: 950px; margin: 0 auto; padding: 0;
+}
+
+.clear {
+  clear:both;width:100%;line-height:0;font-size:0;
+}
+
+
+/* ================== LINKS ====================================== */
+
+a {
+  text-decoration:none;
+  cursor:pointer;
+}
+a:hover {
+  color:#569017;
+  text-decoration:none;
+}
+
+/* ================== FONT ====================================== */
+
+.links, .mainMenu a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ================== HOVER ====================================== */
+
+header .links a, .mainMenu>li>a {transition: all 0.5s ease;}
+
+
+/* ================== NAV ======================================== */
+
+nav { position:relative; margin: 0px 0 0 0;float: right; }
+
+a {
+  font-size: 12px;
+  line-height: 16px;
+  color:#fff;
+  font-weight: bold;
+}
+
+.mainMenu ul { position:absolute; display:none; }
+.mainMenu ul li { width:100% }
+.mainMenu li { float:left;position:relative }
+
+.mainMenu>li>a {
+  display:block;
+  position:relative;
+  padding: 28px 31px;
+  text-transform: uppercase;
+}
+
+.mainMenu>li>a:hover,.mainMenu>li.current>a {
+  background: #c2832d;
+  padding-top: 42px;
+  padding-bottom: 38px;
+  color: #fff;
+}
+
+/* ================== HEADER ====================================== */
+
+header {
+  position: relative;
+  background: url('../images/header_bg.jpg') 50% 0 repeat-x;
+  padding-bottom: 3px;
+}
+
+header .links {
+  height: 39px;
+  text-align: right;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 21px 25px 0 0;
+  font-weight: bold;
+}
+
+header .links a {
+  color: #ecd13e;
+  text-decoration: underline;
+}
+
+header .links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .links li {
+  display: inline-block;
+  margin-left: 42px;
+}
+
+header h1 {
+  padding-top: 20px;
+  width: 224px;
+  float: left;
+}
+
+header h1 a {
+  display:block;
+  width:224px;
+  height:97px;
+  background:url(../images/logo.png) 0 0 no-repeat;
+  text-decoration:none;
+  text-indent:-9999px;
+}
+
+.header_top{
+  background: url('../images/header_top.png') 50% 0 repeat-x #c78e3f;
+  border-bottom: 3px solid #ba8031;
+  padding: 0px 0 18px 39px;
+  box-shadow: 0 0 15px #82551a;
+}

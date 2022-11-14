@@ -1,0 +1,64 @@
+/* Font styles */
+
+
+/* element, element */
+h1, p{font-family: Helvetica, Geneva, Arial, sans-serif; background-color:yellow;}
+
+/* element>element */
+div>h2{font-family: Geneva, Helvetica, Arial, sans-serif; background-color:red;}
+.vox3{font-family: Arial, Helvetica, Geneva,  sans-serif;}
+
+/* [attribute] */
+a[target]{font-family: sans-serif, Helvetica, Geneva, Arial; background-color:aqua;}
+
+/* [attribute]=_blank */
+a[attribute]=_blank
+{
+background-color:green;
+} 
+
+/* :hover */
+a:hover{
+background-color:pink;
+}
+
+/* first-letter */
+p:first-letter
+{
+font-size:200%;
+color:#8A2BE2;
+}
+
+/* :first-child */
+code:first-child
+{
+background-color:blue;
+}
+
+/* :last-child */
+strong:last-child
+{
+background-color:blue;
+}
+
+
+.vox11{} 
+
+.vox12{}
+
+.vox13{} 
+
+.vox14{}
+
+.vox15{} 
+
+.vox16{}
+
+.vox17{} 
+
+.vox18{}
+
+.vox19{} 
+
+.vox20{}
+

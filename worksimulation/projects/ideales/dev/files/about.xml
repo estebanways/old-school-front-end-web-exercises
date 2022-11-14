@@ -1,0 +1,131 @@
+<div class="content about">
+            <section class="team about-section">
+                <h2>DESIGN TEAM</h2>
+                <article class="member">
+                    <img src="./images/about/page2-img1.jpg" alt="">
+                    <p>
+                        <span class="name">Bradley Grosh</span>
+                        Aliquam congue ferment nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet nulla.
+                    </p>
+                </article>
+                <article class="member">
+                    <img src="./images/about/page2-img2.jpg" alt="">
+                    <p>
+                        <span class="name">Patrick Pool</span>
+                        Aliquam congue ferment nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet nulla.
+                    </p>
+                </article>
+                <article class="member">
+                    <img src="./images/about/page2-img3.jpg" alt="">
+                    <p>
+                        <span class="name">Jessica Priston</span>
+                        Aliquam congue ferment nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet nulla.
+                    </p>
+                </article>
+                <article class="member">
+                    <img src="./images/about/page2-img4.jpg" alt="">
+                    <p>
+                        <span class="name">Sam Kromstain</span>
+                        Aliquam congue ferment nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet nulla.
+                    </p>
+                </article>
+            </section>
+            <!-------------------team ------------------>
+
+            <!-------------------general message ------------------>
+            <section class="message about-section">
+                <!--mission-->
+                <section class="mission">
+                    <h2>OUR MISSION</h2>
+                    <div class="mission-container">
+                        <figure>
+                            <img src="./images/about/page2-img5.jpg" alt="">
+                        </figure>
+                        <div class="ours">
+                            <p class="testimonial">
+                                Praesent vestibul molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit vari mi. Cum sociis natoque penatibus et magnis dis parturi ent montes, nascetur ridiculus.
+                                <span></span>
+                            </p>
+                            <a class="link_contact" href="#">Letizia Stegner</a>
+                            <span class="font_contact">Eveniet redumsa etolupta.</span>
+                        </div>
+                    </div>
+                </section>
+                <!--mission-->
+
+                <!--awards & recognitions-->
+                <section class="awards">
+                    <h2>AWARDS & RECOGNITIONS</h2>
+                    <div class="awards-container">
+                        <article class="award-recognition">
+                            <h3>ERROR SIT VOLUPTA TEM ACCUSA
+                            </h3>
+                            <p>Quasi architecto beatae vitae dicta sunt exp cabo. Nemo enim ipsam volupta quia volupt sit aspernatur aut odit aut fugit.
+                            </p>
+                        </article>
+                        <article class="award-recognition odd">
+                            <h3>PELLENTESQUE SED DOLOR</h3>
+                            <p>Fusce feugiat malesua odio. Morbi nunc odio gravida at cursus nec luctus a, lorem. Maece nas tristique orci ac sem. Duis ultricies phare tra magna. Donec accumsan males.
+                            </p>
+                        </article>
+                        <article class="award-recognition">
+                            <h3>VOLUPTATEM SEQUI NESCI UNT NEQUE PORRO
+                            </h3>
+                            <p>Quasi architecto beatae vitae dicta sunt exp cabo. Nemo enim ipsam volupta quia volupt sit aspernatur aut odit aut fugit.
+                            </p>
+                        </article>
+                        <article class="award-recognition odd">
+                            <h3>ARCHITECTO BEATAE VITAE DICTA SUNT EXPLICAB
+                            </h3>
+                            <p>Quasi architecto beatae vitae dicta sunt expli cabo. Nemo enim ipsam volupta quia voluptas sit aspernatur aut odit aut fugit.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+                <!--awards & recognitions-->
+
+                <!--publications-->
+                <section class="publications">
+                    <h2>PUBLICATIONS</h2>
+                    <div class="publications-container">
+                        <article class="publication">
+                            <p>
+                                <span class="title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span>
+                                Praesent vestibulum molestie lacus. Aenean nonumy hendrer mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus magnis dis parturient montes, nascetur ridicu lus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.
+                            </p>
+                            <p class="tags">
+                                <span>Tags:</span>
+                                <a href="#">maecena</a>,
+                                <a href="#">tristique</a>,
+                                <a href="#">orci</a>
+                            </p>
+                        </article>
+                        <article class="publication">
+                            <p>
+                                <span class="title">Nulla venenatis in pede mi aliquet sit amet euismod in auctor</span>
+                                Praesent vestibulum molestie lacus. Aenean nonumy hendrer mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus magnis dis parturient montes, nascetur ridicu lus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.
+                            </p>
+                            <p class="tags">
+                                <span>Tags:</span>
+                                <a href="#">maecena</a>,
+                                <a href="#">tristique</a>,
+                                <a href="#">orci</a>
+                            </p>
+                        </article>
+                        <article class="publication">
+                            <p>
+                                <span class="title">Sed ut perspiciatis unde omnis iste natus error sitvo</span>
+                                Praesent vestibulum molestie lacus. Aenean nonumy hendrer mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus magnis dis parturient montes, nascetur ridicu lus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida.
+                            </p>
+                            <p class="tags">
+                                <span>Tags:</span>
+                                <a href="#">maecena</a>,
+                                <a href="#">tristique</a>,
+                                <a href="#">orci</a>
+                            </p>
+                        </article>
+                    </div>
+                </section>
+                <!--publications-->
+            </section>
+	<div>		

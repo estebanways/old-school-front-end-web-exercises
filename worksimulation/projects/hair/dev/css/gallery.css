@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Carolina Cordero Hernandez */
+
+@import url("bridge.css");
+
+.gallery {
+	padding:0;
+}
+
+.box-gallery{
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #EAF4F7;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 2px 0 #C6CACA;
+    margin-bottom: 5px;
+    margin-top: 24px;
+    padding: 14px 14px 7px;
+}
+
+.img-gallery{
+   margin-bottom: 10px;
+}
+
+.t9{
+    padding-bottom: 0 !important;
+}
+
+.p12 {
+    padding-bottom: 3px;
+}
+
+.clear1{
+	clear: both;
+	display: block;
+	height: 20px;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+.clearGallerySmall{
+    height: 19px;
+}

@@ -1,0 +1,134 @@
+#form1 {
+    font-family: Arial,Helvetica,sans-serif;
+    padding-top: 26px;
+    position: relative;
+    vertical-align: top;
+    z-index: 1;
+}
+#form1 fieldset {
+    border: medium none;
+    padding: 0;
+}
+#form1 label {
+    display: block;
+    min-height: 46px;
+    position: relative;
+    width: 346px;
+}
+#form1 label.message {
+    height: 282px;
+    width: 100%;
+}
+#form1 input {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEF7F9;
+    color: #9C9C9C;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    outline: medium none;
+    padding: 9px 13px;
+    width: 347px;
+}
+#form1 .area .error {
+    float: none;
+}
+#form1 textarea {
+    -moz-box-sizing: border-box;
+	box-sizing:border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEF7F9;
+    color: #9C9C9C;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 252px;
+    margin: 0;
+    outline: medium none;
+    overflow: auto;
+    padding: 9px 13px;
+    resize: none;
+    width: 95%;
+}
+#form1 a {
+    cursor: pointer;
+}
+#form1 .success {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #31B4D2;
+    border: 1px solid #333333;
+    display: none;
+    height: 127px;
+    position: absolute;
+    width: 347px;
+    z-index: 1;
+}
+.p27 {
+    margin-right: 44px;
+}
+#form1 .success .success_txt {
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    top: 34%;
+}
+#form1 .error, #form1 .empty {
+    color: #FF0000;
+    display: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    line-height: 1.25em;
+    overflow: hidden;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+}
+#form1 .message .error, #form1 .message .empty {
+    left: 4px;
+    right: auto;
+    top: 237px;
+}
+.link-form {
+    float: right;
+    padding-right: 30px;
+}
+
+.clear1 {
+	clear: both;
+	display: block;
+	height: 20px;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+
+@media only screen and (max-width: 995px) {
+#form1 input, #form1 textarea {
+    width: 100%;
+}
+#form1 label.message {
+    height: 282px;
+    width: 100%;
+}
+#form1 label {
+    width: 100%;
+}
+#form1 .success {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 767px) {
+#form1 input, #form1 textarea {
+    width: 100%;
+}
+#form1 label {
+    width: 100%;
+}
+#form1 .success {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 479px) {
+}

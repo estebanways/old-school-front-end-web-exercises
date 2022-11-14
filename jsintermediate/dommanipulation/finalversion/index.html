@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>TinyDropdown 2 - animated javascript dropdown</title>
+<link id="styleswitch" rel="stylesheet" href="css/tinydropdown.css" type="text/css" />
+
+
+<!-- My script to give style/css action to buttons //-->
+<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+
+<!-- End of My script to give style/css action to buttons //-->
+
+<script type="text/javascript" src="js/tinydropdown.js"></script>
+
+</script>
+
+<div id="nav" class="nav">
+    <ul id="menu" class="menu">
+        <li class="nodiv">
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">One</a>
+                <ul>
+                    <li>
+                        <a href="#">One</a>
+                    </li>
+                    <li>
+                        <a href="#">Two</a>
+                    </li>
+                    <li class="submenu">
+                        <a href="#">Three</a>
+                            <ul>
+                                <li class="noborder">
+                                    <a href="#">One</a>
+                                </li>
+                                <li>
+                                    <a href="#">Two</a>
+                                </li>
+                                <li>
+                                    <a href="#">Three</a>
+                                </li>
+                            </ul>
+                    </li>      
+                </ul>
+        </li>
+        <li><span>Two</span>
+            <ul>
+                <li>
+                    <a href="#">One</a>
+                </li>
+                <li>
+                    <a href="#">Two</a>
+                </li>
+                <li>
+                    <a href="#">Three</a>
+                </li>
+                <li class="submenu">
+					<span>No Link</span>
+                        <ul id="findul">
+                    		<li id="findli" class="noborder">
+                                <a href="#">One</a>
+                            </li>
+                    		<li>
+                                <a href="#">Two</a>
+                            </li>
+                    		<li>
+                                <a href="#">Three</a>
+                            </li>
+                    		<li>
+                                <a href="#">Four</a>
+                            </li>
+                            <!-- Insert the new Item after Five Item -->
+                    		<li>
+                                <a href="#">Five</a>
+                            </li>
+
+    					</ul>
+				</li>
+                <li>
+                    <a href="#">Five</a>
+                </li>
+                <li>
+                    <a href="#">Six</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Three</a>
+            <ul>
+                <li>
+                    <a href="#">One</a>
+                </li>
+                <li>
+                    <a href="#">Two</a>
+                </li>
+                <li>
+                    <a href="#">Three</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Four</a>
+            <ul id="info">
+				<li>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce justo nulla, malesuada in porta vitae, fermentum ac nulla.</p>
+				</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+</script>
+
+
+
+<!--  My button panel  section -->
+
+    <section>
+        <div class="container_buttons">                                                     
+            <ul>
+                <li id="additem">
+                    <p>
+                        <a class="a_buttonn_three" href="#">
+                        Add Item
+                        <!--  <img id="addbtn" src="images/additem.jpg" alt="add item" /> -->
+                        </a>
+                    </p>
+                </li>
+                <br />
+                <br />
+                <li id="green">
+                    <p>
+                        <a class="a_buttonn_three second_button" href="#">
+                        Green
+                        <!--  <img id="skin1" src="images/switch1.jpg" alt="switch 1" /> -->
+                        </a>
+                    </p>
+                </li>
+                <br />
+                <br />
+                <li id="yellow">
+                    <p>
+                        <a class="a_buttonn_three third_button" href="#">
+                        Yellow
+                        <!--  <img id="skin2" src="images/switch2.jpg" alt="switch 1" /> -->
+                        </a>
+                    </p>
+                </li>
+                <br />
+                <br />
+                <li id="default">
+                    <p>
+                        <a class="a_buttonn_three fourth_button" href="#">
+                        Default
+                        <!-- <img id="skin3" src="images/switch3.jpg" alt="switch 1" /> -->
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div> <!-- End of button-container -->    
+    <section>
+
+
+<!-- End of  My button  panel section -->
+
+
+
+<!-- My script to scripts.js //-->
+<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</body>
+</html>

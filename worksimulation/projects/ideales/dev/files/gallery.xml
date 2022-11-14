@@ -1,0 +1,58 @@
+
+<h1 id="galleyTittle">our gallery</h1>
+			
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img1.jpg" alt=""></a>
+				<span>May 22, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img2.jpg" alt=""></a>
+				<span>May 20, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img3.jpg" alt=""></a>
+				<span>May 18, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteinerLast">
+				<a href="#"><img src="images/gallery/page4-img4.jpg" alt=""></a>
+				<span>May 16, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img5.jpg" alt=""></a>
+				<span>May 12, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img6.jpg" alt=""></a>
+				<span>May 10, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img7.jpg" alt=""></a>
+				<span>May 7, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteinerLast">
+				<a href="#"><img src="images/gallery/page4-img8.jpg" alt=""></a>
+				<span>May 5, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img9.jpg" alt=""></a>
+				<span>April 28, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img10.jpg" alt=""></a>
+				<span>April 25, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>
+			<div class="imageConteiner">
+				<a href="#"><img src="images/gallery/page4-img11.jpg" alt=""></a>
+				<span>April 23, 2012</span>
+				<a href="#">LOREM IPSUM DOLORE</a>
+			</div>

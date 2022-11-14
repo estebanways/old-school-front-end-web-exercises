@@ -1,0 +1,79 @@
+<!--==============================content================================-->
+    <section id="content">
+         <div class="container_12">            
+            <article class="grid_4">
+              <div class="inner-block">
+                <h3>Contact Info</h3>
+                <figure class="map img-bot">
+                        <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                                src="https://maps.google.co.cr/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Brooklyn,+Nueva+York,+Estados+Unidos&amp;aq=0&amp;oq=brooklyn+&amp;sll=8.35789,-84.80865&amp;sspn=7.44058,11.634521&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+Nueva+York,+Estados+Unidos&amp;t=m&amp;ll=40.649974,-73.950005&amp;spn=0.019536,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed">
+                                </iframe><br /><small><a href="https://maps.google.co.cr/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Brooklyn,+Nueva+York,+Estados+Unidos&amp;aq=0&amp;oq=brooklyn+&amp;sll=8.35789,-84.80865&amp;sspn=7.44058,11.634521&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+Nueva+York,+Estados+Unidos&amp;t=m&amp;ll=40.649974,-73.950005&amp;spn=0.019536,0.025749&amp;z=14&amp;iwloc=A"></a></small>
+                       </iframe>
+                </figure>
+                <div class="clear"></div>
+                 <dl class="dl1">
+                    <dt>8901 Marmora Road, Glasgow, D04 89GR.</dt>   
+                    <dd><span>Freephone:</span>+1 800 559 6580</dd>                                  
+                    <dd><span>Telephone:</span> +1 800 603 6035</dd> 
+                    <dd><span>FAX:</span>   +1 800 889 9898 </dd>
+                    <dd>E-mail: <a href="#">mail@demolink.org</a></dd>
+                </dl>
+              </div>
+            </article>
+            <article class="grid_8">
+              <div class="inner-block">
+                <h3>Get in Touch</h3>
+                
+                 <form id="form1">
+                  <div class="success" style="display: none;"><div class="success_txt">Contact form submitted!<br><strong> We will be in touch soon.</strong></div></div>
+                    <fieldset>                    	                                  
+                    	<span id="sprytextfield1">
+                        <label class="name">
+                              <input onblur="veriText()" type="text" placeholder="Name:">                  
+                              <span class="textfieldRequiredMsg">*This field is required.</span>
+						      <span class="textfieldMinCharsMsg">*This is not a valid name.</span>
+						      <span class="textfieldMaxCharsMsg">*This is not a valid name.</span>
+                        </label>
+                        </span>
+                                                    
+						<span id="sprytextfield2">                                                                                                                                                                                                                 
+                          <label class="email">
+                              <input onblur="veriText()" type="text" placeholder="E-mail:">
+                              <span class="textfieldRequiredMsg">*This field is required.</span>
+                              <span class="textfieldInvalidFormatMsg">*This is not a valid email address.</span>
+                              <span class="textfieldMinCharsMsg">*This is not a valid email address.</span>
+                              <span class="textfieldMaxCharsMsg">*This is not a valid email address.</span>                                                                                    
+                          </label>
+                        </span>
+                          
+                        <span id="sprytextfield3">
+                          <label class="phone">
+                              <input onblur="veriText()" type="tel" placeholder="Phone:">                             
+                          	  <span class="textfieldRequiredMsg">*This field is required.</span>
+                              <span class="textfieldInvalidFormatMsg">*This is not a valid phone number.</span>
+                              <span class="textfieldMinCharsMsg">*This is not a valid phone number.</span>
+                              <span class="textfieldMaxCharsMsg">*This is not a valid phone number.</span>                        
+                          </label>  
+                        </span>                                                                                                        
+                                                
+	                    <span id="sprytextfield4">                                                     
+	                      <label class="message">
+		                      <textarea onblur="veriText()" placeholder ="Message:"></textarea>
+		                      <span class="textfieldRequiredMsg">*This field is required.</span>
+		                      <span class="textfieldMinCharsMsg">*The message is too short.</span>
+	                      </label>
+	                    </span>
+	                                            
+                        <div class="clear1"></div>
+                        <div class="link-form">    
+                        <a class="button2 p27" onmouseout="VeriText()" href="#" data-type="reset">Clear</a>
+                        <a class="button2" href="#" data-type="submit">Submit</a>       
+                        </div>                        
+                    </fieldset>           
+                </form>
+              </div>
+            </article>
+        </div>
+    </section>
+    
+	<!--==============================footer=================================-->

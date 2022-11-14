@@ -1,0 +1,536 @@
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------------
+													GENERAL INFO
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+@autor Adriana Carrillo Zeledon
+@email adricar-12@hotmail.com
+
+
+*/
+
+/*
+----------------------------------------------------
+					GENERAL
+----------------------------------------------------
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#wrapper{
+	width:1020px;
+	margin:0 auto;
+}
+
+/*
+----------------------------------------------------
+					HEADER
+----------------------------------------------------
+*/
+
+header{
+	width:1020px;
+	height:150px;
+	float:left;
+}
+
+hgroup{
+	margin:54px 0 0 24px;
+	float:left;
+}
+
+header h1{
+	font: 62px Georgia;
+	letter-spacing:-1px;
+	color:#039ff6;
+	line-height:62px;
+}
+
+header h1 span{
+	color:#000000;
+}
+
+header h2{
+	font:13px Georgia;
+	font-weight:bold;
+	color:#8a8a8a;	
+}
+
+#search{
+	float:left;
+	margin: -52px 0 0 803px;
+}
+
+#form_Word{
+	float:left;
+	width:190px;
+	height:25px;
+	border:1px ridge #7f7f7f;
+	webkit-border-radius: 15px 15px 15px 15px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 15px 15px 15px 15px; /* FF1-3.6 */
+          border-radius: 15px 15px 15px 15px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	background:#bababa;
+}
+
+#form_Search{
+	float:left;
+	margin:2px 0 0 -33px;
+}
+
+
+#img_Date{
+	background:url(../images/clock.png);
+	width:35px;
+	height:32px;
+	float:left;
+	margin: 77px 0 0 227px;
+}
+
+#date{
+	font:11px Arial;
+	float:left;
+	margin: 87px 0 0 0px;
+}
+
+/*
+----------------------------------------------------
+					NAV
+----------------------------------------------------
+*/
+
+nav{
+	width:1020px;
+	height:60px;
+	float:left;
+}
+
+nav ul{
+	margin:0 0 0 22px;	
+}
+
+nav ul li{
+	display:inline-block;
+	list-style:none;
+	width:139px;
+	height:58px;
+	border-right:1px solid #f4f4f4;
+	border-left:1px solid #f4f4f4;
+	text-align:center;
+	margin:0 0 0 -5px;
+}	
+
+nav ul li a{
+	font:19px Georgia;	
+	text-decoration:none;
+	line-height:50px;
+	color:#000000;
+}
+
+nav ul li a:hover{
+	display:block;
+	width:139px;
+	height:58px;
+	background:url(../images/button_hover.png);
+	color:#ffffff;
+}
+
+/*
+----------------------------------------------------
+				PRIMARY SLIDE
+----------------------------------------------------
+*/
+
+#slider_Primary {
+
+	padding:0px 0 0 20px;
+	width: 986px;
+    height: 356px;
+	float:left;
+	overflow:hidden;
+}
+
+
+.slider {
+	
+	width:986px;
+	height:321px;
+	position:relative;
+}
+
+
+.img_Container {
+	
+	display:none;
+}
+
+
+.img_Menu li {
+	
+	padding:327px 0 0 0;
+	float:right;
+	list-style: none;
+	
+}
+
+.img_Menu li a {
+	
+	display:inline-block;
+	width:30px;
+	height:30px;
+	text-indent:-5000px;
+	background:url("../images/gallery_button.png") no-repeat;
+}
+
+.img_Menu li a:hover {
+	
+	background:url("../images/gallery_button_grey.png") no-repeat;
+}	
+
+/*
+----------------------------------------------------
+				SECONDARY SLIDE
+----------------------------------------------------
+*/
+
+
+.prev{
+	
+	 background:url("../images/previous.jpg") no-repeat;
+	 width:30px;
+	 height:30px;
+}
+
+.next{
+	
+	 background:url("../images/next.jpg") no-repeat;
+	 width:30px;
+	 height:30px;
+}
+
+/*
+----------------------------------------------------
+				CONTENT
+----------------------------------------------------
+*/
+
+#content_Sections{
+	
+	width:1020px;
+	float:left;
+	display:inline-block;
+	
+}
+
+#welcome {
+	display:inline-block;
+	width:313px;
+	float:left;
+	margin:22px 4px 0 18px;	
+}
+
+#welcome h2 span{
+	color:#0b95e0;
+	font:35px Times;
+}
+
+#solutions_Overview {
+	display:inline-block;
+	width:313px;
+	float:left;
+	margin:27px 0 0 17px;
+	
+}
+
+#last_Projects{
+	display:inline-block;
+	width:313px;
+	float:left;
+	margin:27px 0 0 35px;
+	
+}
+
+#content_Sections h2{
+	font: 31px Times;
+	float:left;
+	letter-spacing:0.5px;
+	border-bottom: 1px dashed #656565;
+	width:312px;
+	padding: 0 0 16px 0 ;
+	margin:0 0 22px 0;
+}
+
+#last_Projects h2{
+	width:294px;
+}
+
+.img_Section{
+	border:2px solid #ffffff;
+	margin:0 0 13px 0;
+}
+
+#content_Sections p{
+	font:12px/18px Arial;
+	float:left;
+	color:#5b5b5b;
+}
+
+#content_Sections .emphasis{
+	font-weight:bold;
+}
+
+#section_Services{
+	float:left;
+	width:635px;
+	margin:0 0 0 19px;
+}
+
+#section_Services h2{
+	width:634px;
+	border:none;
+	margin: 0 0 2px 0;
+}
+
+#section_Services ul {
+	width:100%;	
+	float:left;
+	list-style:url(../images/bullet.jpg);
+	margin:17px 0 4px 21px;
+}
+
+#section_Services ul li {
+	display:list-item;
+	float:left;
+	width:40%;
+	margin:2px 42px 0 0;
+	padding:0px 0 2px 6px;
+}
+
+#section_Services ul li a{
+	font:15px Arial;
+	color:#5b5b5b;
+}
+
+#section_Testimonials{
+	float:left;
+	display:inline-block;
+	width:309px;
+	margin:0 0 0 30px;
+}
+
+#main_info{
+	margin: 0 0px 18px 0;
+}
+
+#section_Testimonials .emphasis{
+	color:#5b5b5b;
+}
+
+#section_Testimonials p span{
+	color:#43b3e5;
+	float:left;
+	width:308px;
+}
+
+#section_Testimonials h2{
+	border:none;
+	margin: 0 0 2px 0;
+}
+
+
+
+
+.links{
+	font:12px Tahoma;
+	float:left;
+	margin:10px 0 43px 0;
+	color:#43b3e5;
+}
+
+#view_all{
+	font:12px Tahoma;
+	float:left;
+	margin:19px 0 68px  2px;
+	color:#43b3e5;
+}
+
+
+.img_links{
+	margin:14px 0 0 5px;
+}
+
+#section_Testimonials .img_links{
+	margin:23px 0 0 5px;
+}
+
+
+/*
+----------------------------------------------------
+				BOTTOM NAV
+----------------------------------------------------
+*/
+
+#content_Options{
+	background:url(../images/bottomNav_bg.jpg);
+	clear:both;
+	width:1020px;
+	height:200px;
+}
+
+#nav_Secondary{
+	margin: 30px 0 0 19px;
+	float:left;
+}
+
+#nav_Secondary ul h2{
+	font:13px Tahoma;
+	font-weight:bold;
+	color:#ffffff;
+	margin:0 0 12px 0;
+}
+
+#nav_Secondary ul{
+	float:left;
+	list-style:url(../images/bullet_bottomnav.png);
+	list-style-position:inside;
+	width:188px;
+	line-height:28px;
+}
+
+#nav_Secondary ul li{
+	margin:0 0 0 2px;
+}
+
+#nav_Secondary ul li a{
+	font:11px Tahoma;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+#news_Letters{
+	background:url(../images/frame_newsletter.png);
+	width:305px;
+	height:112px;
+	float:left;
+	margin:38px 0 0 111px;
+}
+
+#news_Letters h2{
+	font:28px Georgia;
+	color:#ffffff;
+	margin:8px 0 0 20px;
+	letter-spacing:-0.4px;
+}
+
+#form_word{
+	width:216px;
+	height:23px;
+	margin:3px 0 0 16px;
+	webkit-border-radius: 5px 5px 5px 5px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 5px 5px 5px 5px; /* FF1-3.6 */
+          border-radius: 5px 5px 5px 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+}
+
+#ok{
+	width:51px;
+	height:30px;
+	margin:1px 0 0 -5px;
+	background:#000000;
+	border:none;
+	webkit-border-radius: 5px 5px 5px 5px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+     -moz-border-radius: 5px 5px 5px 5px; /* FF1-3.6 */
+          border-radius: 5px 5px 5px 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	color:#ffffff;
+	font-weight:bold;
+}
+
+#news_Letters a{
+	color:#ffffff;
+	font:12px Arial;
+	margin:9px 0 0 18px;
+	float:left;
+}
+/*
+----------------------------------------------------
+				FOOTER
+----------------------------------------------------
+*/
+
+footer{
+	background:#000000;
+	clear:both;
+	height:87px;
+	
+}
+
+footer p{
+	color:#ffffff;
+	font:12px Arial;
+	margin:22px 0 0 20px;
+	float:left;
+	}
+
+footer p span{
+	font-weight:bold;
+}
+
+footer p a{
+	color:#ffffff;
+	border-left: 1px solid #ffffff;
+	padding: 0  0 0 4px;
+}
+
+footer ul{
+	float:left;
+	margin:17px 0 0 676px;
+}
+
+footer li{
+	display:inline-block;
+}
+
+#link_Facebook{
+	background:url(../images/facebook.png);
+	float:left;
+	width:25px;
+	height:24px;
+}
+
+#link_Facebook:hover{
+	background:url(../images/facebook_hover.png);
+}
+
+#link_Twitter{
+	background:url(../images/twitter.png);
+	float:left;
+	width:25px;
+	height:24px;
+}
+
+#link_Twitter:hover{
+	background:url(../images/twitter_hover.png);
+}
+
+#link_Mail{
+	background:url(../images/mail.png);
+	float:left;
+	width:25px;
+	height:24px;
+}
+
+#link_Mail:hover{
+	background:url(../images/mail_hover.png);
+}
+
+#link_LinkedIn{
+	background:url(../images/linkedin.png);
+	float:left;
+	width:25px;
+	height:24px;
+}
+
+#link_LinkedIn:hover{
+	background:url(../images/linkedin_hover.png);
+}

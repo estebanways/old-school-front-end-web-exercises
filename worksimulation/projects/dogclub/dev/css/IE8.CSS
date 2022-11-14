@@ -1,0 +1,4 @@
+#main,header, footer, section, aside, nav, article, figure { display: block; padding: 0; margin: 0; }
+#social {
+ margin-top: -50px;
+ 	}

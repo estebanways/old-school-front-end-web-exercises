@@ -1,0 +1,152 @@
+
+
+		<link rel="stylesheet" href="css/style-petservices.css" type="text/css" media="screen">
+	
+		<div class="wrapper0">
+		<div class="wrapper">
+			<div class="container">
+				<div class="first">
+					<div class="petServicesList">
+						<hgroup>
+							<h2 class="subtituloh2"><span>PET SERVICES LIST</span></h2>
+						</hgroup>
+
+						<ul>
+							<li>
+								Dog Sitters
+							</li>
+							<li>
+								Dog Walkers
+							</li>
+							<li>
+								Alternative Therapies
+							</li>
+							<li>
+								Vets
+							</li>
+							<li>
+								Pet & Dog Training
+							</li>
+							<li>
+								Groomers
+							</li>
+							<li>
+								Pet Taxi
+							</li>
+							<li>
+								Pet Shops
+							</li>
+							<li>
+								Pet Fiendly Places
+							</li>
+							<li>
+								Portrait Artist
+							</li>
+							<li>
+								Rescue Centers
+							</li>
+							<li>
+								Lost Pets
+							</li>
+						</ul>
+					</div>
+
+					<div class="articles">
+						<hgroup>
+							<h2 class="subtituloh2"><span>ARTICLES</span></h2>
+						</hgroup>
+
+						<ul class="article">
+							<li>
+
+								<img src="images/per_services/article1.jpg" alt="Image1">
+								<em>Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem</em>
+								<p>
+									Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada. Fusce euismod consequat ante.
+								</p>
+								<a href="#">READ MORE</a>
+							</li>
+
+							<li>
+								<img src="images/per_services/article2.jpg" alt="Image1">
+								<em>Fusce suscipit varius mi. Lorem ipsum dolor sitMauris fermentum dictum magna. Sed laoreet aliquam leo.</em>
+								<p>
+									Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada. Fusce euismod consequat ante.
+								</p>
+								<a href="#">READ MORE</a>
+							</li>
+							<li>
+								<img src="images/per_services/article3.jpg" alt="Image1">
+								<em>Raesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem </em>
+								<p>
+									Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada. Fusce euismod consequat ante.
+								</p>
+								<a href="#">READ MORE</a>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+
+			
+					<div class="testimonials">
+						<hgroup>
+							<h2 class="subtituloh2"><span>TESTIMONIALS</span></h2>
+						</hgroup>
+						<p>
+							<img src="images/per_services/quote.png" alt="Image1">  Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta.
+							Fusce suscipit varius mi cum sociis natoque. Fusce feugiat congue fermentum nisl.
+							Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet...
+						</p>
+						<p>
+							<span>- Dan Adams</span>
+						</p>
+
+						<p>
+							<img src="images/per_services/quote.png" alt="Image1">  Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta.
+							Fusce suscipit varius mi cum sociis natoque. Fusce feugiat congue fermentum nisl.
+							Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet...
+						</p>
+						<p>
+							<span>- Miranda Tomson</span>
+						</p>
+
+						<a href="#">READ ALL TESTIMONIALS</a>
+
+					</div>
+
+					<div class="dogClubPricing">
+						<hgroup>
+							<h2 class="subtituloh2"><span>DOG CLUB PRICING</span></h2>
+						</hgroup>
+
+						<div class="prices">
+							<p>
+								One dog drop in full day <span>$25.00</span>
+							</p>
+							<p>
+								Two dogs drop in full day <span>$45.00</span>
+							</p>
+							<p>
+								One full time dog half day drop in <span>$16.00</span>
+							</p>
+							<p>
+								Two full time dogs half day drop in <span>$26.00</span>
+							</p>
+							<p>
+								One dog full week <span>$18.00</span> per day or <span>$90.00</span> a week
+							</p>
+							<p>
+								Two dogs full week <span>$36.00</span> per day or <span>$180.00</span> a week
+							</p>
+						</div>
+
+						<p>
+							Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque.
+							Fusce feugiat malesuada. Fusce euismod consequat ante.
+						</p>
+					</div>
+		
+			</div>
+		</div>
+		</div>

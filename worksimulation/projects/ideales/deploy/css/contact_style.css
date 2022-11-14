@@ -1,0 +1,116 @@
+@import "../css/reset.css";
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+/* Global properties ======================================================== */
+html {width:100%}
+
+body {
+
+background: url(../images/home/main-bg.gif) repeat 0 0;
+font:14px/21px Arial, Helvetica, sans-serif;
+min-width:980px;
+color:#474747;
+-webkit-text-size-adjust: none;
+
+}
+
+/*********************************CLASSES**********************************/
+
+.contact_container{position: relative; width: 960px; margin: 0 auto; padding: 0;}
+.contact_information,
+.error_messages	{float: left; display: inline; margin-right: 10px;}
+.contact_information{width: 390px;}
+.error_messages	{width: 530px;}
+
+
+/*==================================== Links ======================================================== */
+
+
+
+/*********************************content*************************************/
+
+#content_contact {padding:102px 0 67px 0;}
+
+
+/*================================>> H4 <<========================================*/
+h4{ font-weight:normal;letter-spacing: -1px;font-family: 'Oswald', sans-serif;}
+h4{color: #000;font-size: 28px;line-height: 34px;margin-bottom: 15px;text-transform: uppercase;}
+h4.ind1{ margin-bottom:17px;}
+
+
+
+/*********************************contact page*************************************/
+
+
+/* Contact form */
+#contact-form {padding:2px 0 0 0;}
+#contact-form .success {width:246px;margin-bottom:10px;}
+#contact-form textarea, #contact-form input {outline: none;border:1px solid #dadada;
+	color: #5a5a5a;font-family:Arial, Helvetica, sans-serif;font-size: 14px;margin: 0;line-height:16px;height:16px;background:none;padding:12px 13px;width: 304px;display:inline-block;}
+#contact-form input {width:304px;}
+#contact-form textarea {overflow:auto; width:512px; height:181px;resize:none; margin: 0 0 0 0;}	
+#contact-form label {display:block; min-height:62px; overflow:hidden;}	
+#contact-form label.message { display:block; padding-bottom:0; }
+#contact-form .button {margin-left:23px;}	
+#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
+#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:11px; clear:both;}
+#contact-form .buttons2 {overflow:hidden;text-align:right; position:relative; clear:both; padding-top:40px;width:540px;}
+#contact-form .buttons2 a {
+	cursor:pointer;
+	margin-top:0;
+	text-align:center;
+}
+#contact-form span{ display:block; margin: 0 0 0 5px;}
+
+.map_wrapper{width:90%;overflow:hidden;display:block !important;margin-bottom:16px;}
+#map_canvas {
+   width:100%;
+   height:333px;
+}
+.adress{}
+.adress span{ display:inline-block; width:98px;}
+.adress dt{}
+
+.demo{}
+.demo:hover{ text-decoration:underline;}
+
+.strong{
+color:#000000;
+font-size:12px;
+}
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+ body{min-width:768px;}
+ #contact-form textarea, #contact-form input{width:93%;}
+ .img_wrap1{width:100%;}
+ .contact_container{width: 768px;}
+.contact_container .contact_information{width: 300px;}
+.contact_container .error_messages{width: 428px;}
+}
+
+@media only screen and (max-width: 768px) {
+
+ body{min-width:420px;}
+#content_contact{padding: 42px 0;}
+.img_wrap1{width:100%;}
+.map_wrapper{width:99%;}
+.contact_container {width: 420px;}
+.contact_container .contact_information,
+.contact_container .error_messages {width: 100%; margin-left: 0; margin-right:0;}
+.contact_container .contact_information,
+.contact_container .error_messages {margin-bottom:30px;}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+body{min-width:300px;}
+h4{font-size: 22px; line-height: 26px;}
+.button{margin-top:20px;}
+#contact-form textarea, #contact-form input{width:90%;}
+.contact_container{width:300px;}
+
+ }

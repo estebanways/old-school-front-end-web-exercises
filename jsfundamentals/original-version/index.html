@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title></title>
+
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+
+</head>
+<body>
+
+
+
+<script>
+
+var firstval = 0;
+
+function Carousel(){
+    firstval += 10;
+    document.getElementById('abc-container').style.left = "-" + firstval + "px";
+    if(firstval == 1200){
+        document.getElementById('abc-container').style.left = "0";
+        firstval = 0;
+        setTimeout(Carousel, 3000);
+        return;
+    }
+    
+    if(!(firstval%400)){ //pause every 400px
+        setTimeout(Carousel, 3000);
+        return;
+    }
+    
+    runCarousel = setTimeout(Carousel, 20);
+}
+
+Carousel();
+
+</script>
+
+    <div id="wrapper">
+        <div id="abc-container">
+            <div id="a"></div>
+            <div id="b"></div>
+            <div id="c"></div>
+        </div>
+    </div>
+    <div id="asas"></div>
+    <div id="asass"></div>
+
+
+<script>
+window.onload = Carousel();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+
+
+            <div class="slideshow">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="images/slides/slide1.jpg" />
+                            <div class="flex-caption">
+                                <div class="inner-caption">
+                                    <span>Project Info:</span>
+                                    <p>Alanditiistes es praesentmvo luptatum delenitim osatquef. corrupti quos dolores et quas molestias exceuri sint...</p>
+                                    <a class="button-banner" href="#">more</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slides/slide2.jpg" />
+                            <div class="flex-caption">
+                                <div class="inner-caption">
+                                    <span>Project Info:</span>
+                                    <p>Corrupti quos dolores et quas molestias exceuri Alanditiistes es praesentmvo luptatum delenitim osatquef. sint...</p>
+                                    <a class="button-banner" href="#">more</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slides/slide3.jpg" />
+                            <div class="flex-caption">
+                                <div class="inner-caption">
+                                    <span>Project Info:</span>
+                                    <p>Alanditiistes es praesentmvo luptatum delenitim osatquef. corrupti quos dolores et quas molestias exceuri sint...</p>
+                                    <a class="button-banner" href="#">more</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slides/slide4.jpg" />
+                            <div class="flex-caption">
+                                <div class="inner-caption">
+                                    <span>Project Info:</span>
+                                    <p>Corrupti quos dolores et quas molestias exceuri Alanditiistes es praesentmvo luptatum delenitim osatquef. sint...</p>
+                                    <a class="button-banner" href="#">more</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/slides/slide5.jpg" />
+                            <div class="flex-caption">
+                                <div class="inner-caption">
+                                    <span>Project Info:</span>
+                                    <p>Alanditiistes es praesentmvo luptatum delenitim osatquef. corrupti quos dolores et quas molestias exceuri sint...</p>
+                                    <a class="button-banner" href="#">more</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="shadow"></div>
+            <!-------------------Principal Gallery End ------------------>
+
+            <!-------------------New Projects------------------>
+            <div class="carouselBox firstbox">
+
+                <div class="leftBox">
+
+                    <hgroup>
+                        <h2>NEW PROJECTS</h2>
+                        <h3>OUR BEST INTERIOR
+                            <div class="minispace">
+                                <div>DESIGNS</h3>
+                    </hgroup>
+                    <p>
+                        At vero eos et accusamus iusto ssimos ducimus qui massa ast.Alanditiistes es praesentmvo- luptatum delenitim osatquef.
+
+                        <a class="button" href="#">
+                            <strong></strong>
+                            <span>view all</span>
+                        </a>
+                    </p>
+
+                    </div>
+
+                    <div class="rightBox">
+
+                        <div class="controlBox">
+                            <div>
+                                <span id="prev1" class="nav-prev"></span>
+                                <span id="next1" class="nav-next"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-wrapper">
+                            <div class="carouselGrid">
+                                <ul id="foo1" class="foo2C">
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img src="./images/home/page1-img1.jpg" alt="">
+                                            </a>
+                                            <span>May 20, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img src="./images/home/page1-img2.jpg" alt="">
+                                            </a>
+                                            <span>May 18, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img src="./images/home/page1-img3.jpg" alt="">
+                                            </a>
+                                            <span>May 16, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img alt="" <img src="./images/home/page1-img1.jpg" alt="">
+                                            </a>
+                                            <span>May 14, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img src="./images/home/page1-img2.jpg" alt="">
+                                            </a>
+                                            <span>Mayo 11, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                    <li class="itemCarousel">
+                                        <div class="itemConten">
+                                            <a class="imgwrap" href="#">
+                                                <img src="./images/home/page1-img3.jpg" alt="">
+                                            </a>
+                                            <span>Mayo 10, 2012</span>
+                                            <a href="#">LOREM IPSUM DOLORE</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <!-------------------New Projects------------------>
+
+
+                    <!-------------------Recent Projects------------------>
+                    <div class="carouselBox">
+
+                        <div class="leftBox">
+
+                            <hgroup>
+                                <h2>RECENT PROJECTS</h2>
+                                <h3>OUR FRESH IDEAS AND INFORMATION</h3>
+                            </hgroup>
+                            <p>
+                                At vero eos et accusamus iusto ssimos ducimus qui massa ast.Alanditiistes es praesentmvo- luptatum delenitim osatquef.
+
+                                <a class="button" href="#">
+                                    <strong></strong>
+                                    <span>view all</span>
+                                </a>
+                            </p>
+
+                        </div>
+
+                        <div class="rightBox">
+
+                            <div class="controlBox">
+                                <div>
+                                    <span id="prev2" class="nav-prev"></span>
+                                    <span id="next2" class="nav-next"></span>
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-wrapper">
+                                <div class="carouselGrid">
+                                    <ul id="foo2" class="foo2C">
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img4.jpg">
+                                                </a>
+                                                <span>May 10, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img5.jpg">
+                                                </a>
+                                                <span>April 18, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img6.jpg">
+                                                </a>
+                                                <span>April 16, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img4.jpg">
+                                                </a>
+                                                <span>April 14, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img5.jpg">
+                                                </a>
+                                                <span>April 11, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                        <li class="itemCarousel">
+                                            <div class="itemConten">
+                                                <a class="imgwrap" href="#">
+                                                    <img alt="" src="./images/home/page1-img6.jpg">
+                                                </a>
+                                                <span>April 10, 2012</span>
+                                                <a href="#">LOREM IPSUM DOLORE</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-------------------Recent Projects  Ends Here------------------>
+
+
+                    <!-------------------Main Content------------------>
+                    <div class="information">
+                        <div class="main_container">
+                            <article class="sub_container">
+                                <h4 class="first_title">Welcome!</h4>
+                                <p class="paragraph_2">
+                                    <a href="#" class="img_wrap1">
+                                        <img src="images/home/page1-img7.jpg" alt="" />
+                                    </a>
+                                </p>
+                                <strong class="principal">Est omnis dolore sereles mode lorem.</strong>
+                                Eveniet redumsa Etolupta estudesu
+                                <br>usandafel Itaque massa earumumelreruhic
+                                <br>tene massturam sapiravi. Reiciendis vptati
+                                <br>
+
+                                <a href="#" class="button">
+                                    <strong></strong>
+                                    <span>more</span>
+                                </a>
+                            </article>
+
+                            <article class="sub_container">
+                                <h4 class="second_title">Our Profile</h4>
+                                <p class="black">
+                                    Est omnis dolore sereles mode lorem.
+                                    <br>Etoaur erumoms odes necessin tatibus.
+                                </p>
+                                <ul class="list_pro profile">
+                                    <li><a href="#">Eveniet redumsa etolupta</a>
+                                    </li>
+                                    <li><a href="#">Esandaefel Itaque massa ear</a>
+                                    </li>
+                                    <li><a href="#">Bene massuram sapiravi  eic</a>
+                                    </li>
+                                    <li><a href="#">Asstrum maiores dolore mode</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="button">
+                                    <strong></strong>
+                                    <span>more</span>
+                                </a>
+                            </article>
+
+                            <article class="sub_container last-col">
+                                <h4 class="third_title">clients say</h4>
+                                <div class="testimonial">
+                                    Est omnis dolore sereles mode lorem. Eveniet redumsa Etolupta estudesu usanda efel Itaque massa earumu melreruhic...
+                                    <span></span>
+                                </div>
+                                <a class="link_contact" href="#">John Brown</a>
+                                <br>
+                                <span class="font_contact">Eveniet redumsa etolupta.</span>
+                                <br>
+                                <a href="#" class="button">
+                                    <strong></strong>
+                                    <span>see all</span>
+                                </a>
+                            </article>
+                        </div>
+
+                    </div>

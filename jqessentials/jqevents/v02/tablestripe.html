@@ -1,0 +1,86 @@
+<!--
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Site:      	Table Stripe
+Author:    	Andrea Venegas Esquivel
+Updated:   	MM/DD/YYYY   -- HH:MM:SS
+		    21/15/2013       8:21:54 pm
+Updated by: None. 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Striping/Hover Highlighting a Table</title>
+	<meta name="Andrea Venegas Esquivel" content="Gallery"/>	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>
+		
+	<style type="text/css">
+	.color1{
+	background-color:#F5A9A9;	
+	}
+		
+	.highlight {
+	background-color: #FA5858;
+	font-weight:bold;
+	}
+		
+	th,td {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		color: #000000;
+	}
+	tr {
+		border: 1px solid gray;
+	}
+	td {
+		width:300px;
+		padding:3px;
+	}
+	th {
+		background-color:#D2E0E8;
+		color:#003366
+	}
+	table {
+		border: 1pt solid gray;
+	}
+	.clickable {
+		cursor:pointer;
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Using jQuery to stripe and hover-highlight a table</h1>
+	<table id="theList">
+	  <thead>
+		<tr>
+		  <th>Item</th>
+		  <th>Price</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td>Milk</td>
+		  <td>1.99</td>
+		</tr>
+		<tr>
+		  <td>Eggs</td>
+		  <td>2.29</td>
+		</tr>
+		<tr>
+		  <td>Butter</td>
+		  <td>3.49</td>
+		</tr>
+		<tr>
+		  <td>Bread</td>
+		  <td>0.99</td>
+		</tr>
+	  </tbody>
+	</table>
+	<a id="dynamic-row" href="http://www.amazon.com">Dymanic Row</a>	
+	<button id="CrearFila">Crear Fila</button>
+</body>
+</html>

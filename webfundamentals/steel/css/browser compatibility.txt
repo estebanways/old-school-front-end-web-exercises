@@ -1,0 +1,2 @@
+Create copies of global.css, for versions ie6, ie7 and ie8.
+ie9.css has changed in the <NAV> filter that makes the nav bar work stupid.

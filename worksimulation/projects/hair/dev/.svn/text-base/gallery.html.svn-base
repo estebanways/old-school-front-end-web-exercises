@@ -1,0 +1,95 @@
+<!---------------------------------------------------- CONTENT -------------------------------------------------------------->
+<section class="wrapper">
+	<div class="container_12">
+    	<article class="grid_12">
+        	<div class="gallery ">
+            	<h3 class="p12">Our Gallery</h3>
+            </div><!-- block -->
+        </article>
+        <div class="clear"></div>
+       	<article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img1.png"></figure>
+                   		 <a href="#"> Seren amet ports ahaslelu msie spetre </a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 1-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img2.png"></figure>
+                   		 <a href="#"> Sed in lacus ut enim adipiscing aliquet  </a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 2-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img3.png"></figure>
+                   		 <a href="#">Seren amet ports ahaslelu msie spetre</a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 3-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img4.png"></figure>
+                   		 <a href="#">In pede mi, aliquet sit amet, euismod inuct</a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 4-->
+            </div><!-- block -->
+        </article>         
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img5.png"></figure>
+                   		 <a href="#">Donec sagittis euismod purus ster prot </a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 5-->
+            </div><!-- block -->
+        </article>     
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img6.png"></figure>
+                   		 <a href="#"> Lorem ipsum dolor sit amet, consectetue </a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 6-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img7.png"></figure>
+                   		 <a href="#">Aliquam congue fermentum nisl port</a>
+                         <p class="last2">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 7-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img8.png"></figure>
+                   		 <a href="#">Mauris accumsan nulla vel diam</a>
+                         <p class="last2">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 8-->
+            </div><!-- block -->
+        </article>
+        <article class="grid_4">
+        	<div class="gallery">
+            	<div class="box-gallery">
+                    <figure class="img-gallery"><img src="images/gallery/page5-img9.png"></figure>
+                   		 <a href="#">Seren amet ports ahaslelu msie spetre</a>
+                         <p class="t9">Fed tincidunt ut laoreet dol. Nagna aliquam.</p>
+                </div><!-- box 9-->
+            </div><!-- block -->
+        </article> 
+        <div class="clear1 clearGallerySmall"></div>
+        <div class="clear1"></div>
+   </div> <!-- container -->
+</section>
+<!---------------------------------------------------- CONTENT -------------------------------------------------------------->

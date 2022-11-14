@@ -1,0 +1,70 @@
+        <div class="services">
+            <div class="grid-8">
+                <div class="modern-services">
+                    <h4 class="ind2">Modern Services</h4>
+                    <li class="destacado"><a href="#">Interior Decorating Services</a></li>
+                    <p class="ensobre">
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum 
+                        vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia.                        
+                    </p>
+                    <ul class="lista1 m_bota">
+                        <li><a href="#">Functional space planning and design</a></li>
+                        <li><a href="#">Fabric and furniture selection / placement</a></li>
+                        <li><a href="#">Interior architectural detail design:</a></li>
+                    </ul>
+                    <li class="destacado"><a href="#">Home Remodeling</a></li>
+                    <p class="p3">
+                        Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante.
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam 
+                        congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing 
+                        aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam 
+                        dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.                        
+                    </p> 
+                    <li class="destacado"><a href="#">Interior Design Services for New Home Construction</a></li>
+                    <p class="p4">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam 
+                        congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing
+                        aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam 
+                        dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.                     
+                    </p>
+                                                            
+                    <ul class="lista1 ">
+                        <li><a href="#">Flooring</a></li>                       
+                        <li><a href="#">Kitchen cabinets, media cabinets, vanities, and other millwork details</a></li>                       
+                        <li><a href="#">Wall finishes (paint, stone or ceramic tile, wall covering)</a></li>                       
+                        <li><a href="#">Ceiling treatments (tray, cove, coffered, medallions, etc.)</a></li>                        
+                        <li><a href="#">Custom moldings (base, casings, chair rail, panels, crown) and doors</a></li>                        
+                        <li><a href="#">Custom stairs, balusters and handrails</a></li>
+                    </ul>                                                            
+                </div>
+            </div>
+            <div class="grid-4">
+                <div class="services-list">
+                <h4 class="ind2">Services List</h4>
+                    <ul class="lista1 service_list">
+                        <li><a href="#">Interior Design Consultation</a></li>
+                        <li><a href="#">Project Management</a></li>
+                        <li><a href="#">Space Planning</a></li>
+                        <li><a href="#">Paint and Color Selection</a></li>
+                        <li><a href="#">Fixture Specification</a></li>
+                        <li><a href="#">Accessory Installation</a></li>
+                        <li><a href="#">Contractor Management</a></li>
+                        <li><a href="#">Art Consultation</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Draperies/Window Coverings</a></li>
+                        <li><a href="#">Carpet/Area Rugs</a></li>
+                        <li><a href="#">Accessories</a></li>
+                     </ul>
+                     <h4 class="ind2">COLOR ANALYSIS</h4>
+                     <p class="p5">
+                         <a href="#" class="img_wrap1"><img src="images/services/page3-img1.jpg" alt=""></a>
+                         <p>Sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                     </p>
+                </div>
+                
+        </div>
+        
+
+
+
+    </div>

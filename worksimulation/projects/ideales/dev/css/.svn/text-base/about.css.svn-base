@@ -1,0 +1,174 @@
+
+.about-section{
+	float: left;
+}
+
+
+/**************
+	ABOUT
+**************/
+.about{
+	display: block;
+	overflow: hidden;
+	margin: 133px 0 0 0;
+}
+
+
+.about p{
+	font:normal normal lighter 14px normal Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: #434746;
+}
+
+.about img{
+	border: 1px solid #ffffff;
+}
+
+/*heading*/
+.about h2 {
+    font:normal normal 500 28px normal;
+    font-family: 'Oswald',  sans-serif;
+    letter-spacing: -1px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.team{
+	width: 260px;
+	margin-right: 60px;
+}
+
+.team h2{
+	padding-bottom: 14px;
+}
+
+/*member*/
+.team .member{
+	display: inline-block;
+	padding-bottom: 38px;
+}
+
+.team .member img{
+	width: 95%;
+	height: auto;
+}
+
+.team .member p{
+	margin:14px 0 8px 0; 
+}
+
+.team .member p span{
+	font: 800 12px Arial, sans-serif;
+	display: block;
+}
+
+/**************
+	MESSAGE
+**************/
+.message{
+	width: 620px;
+}
+
+
+/*mission*/
+.message .mission{
+	padding-bottom: 85px;
+}
+
+.message .mission h2{
+	padding-bottom: 14px;
+}
+
+.message .mission-container{
+	display: inline-block;
+	height: 225px;
+}
+.message .mission figure, .message .mission .ours{
+	float: left;
+	display: block;
+}
+
+.message .mission figure{
+	width: 240px;
+	margin-right: 16px;
+}
+
+.message .mission figure img{
+	height: 100%;
+}
+
+.message .mission .ours{
+	width: 364px;
+}
+
+.message .mission .ours p{
+	font-style: italic;
+	margin-bottom: 23px;
+}
+
+.message .mission .font_contact{
+	display:block;
+}
+
+/*awards*/
+.message .awards h2{
+	padding-bottom: 20px;
+}
+
+.message .awards h3{
+	display: inline-block;
+	width: 208px;
+	font-size: 18px;
+	margin-bottom: 14px;
+	color: #4b4b4b;
+}
+
+.message .awards .awards-container{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.message .awards .award-recognition{
+	width: 278px;
+	margin: 0 0 15px 0;
+	float: left;
+}
+
+.message .awards .odd{
+	margin-left: 40px;
+	width: 300px;
+}
+
+/*publications*/
+.publications{
+	display: block;
+	margin: 58px 0 0 0;
+}
+
+.publications h2{
+	margin-bottom: 38px;
+}
+
+.publications .publication{
+	display: inline-block;
+	margin-bottom: 28px;
+	overflow: hidden;
+}
+
+.publications .publication p{
+
+}
+
+.publications .publication p span.title{
+	font: 800 12px Arial, sans-serif; 
+	display: block;
+}
+
+.publications .publication .tags span{
+	font-weight: 800;
+}
+
+.publications .publication .tags a{
+	text-decoration: underline;
+}

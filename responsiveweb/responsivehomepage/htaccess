@@ -1,0 +1,6 @@
+AuthType basic
+AuthUserFile /var/www/passwd/.etribe.sytes.net
+AuthName "Restricted"
+<LIMIT GET POST>
+require valid-user
+</LIMIT>

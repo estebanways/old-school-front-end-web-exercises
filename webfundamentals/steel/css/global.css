@@ -1,0 +1,663 @@
+/*
+ * Author:Alvaro Herrera
+ * Site: Stelt
+ * E-mail: aherrerac@icloud.com
+ * AvVenta University - Web Fundamentals course - 2013
+*/
+
+
+/* Esteban: Proprietary font-face is disabled */
+
+/*
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+/* Esteban: My custom font-face */
+
+@font-face {
+    font-family: 'BloklettersBalpenBalpen';
+    src: url('../fonts/Blokletters-Balpen.eot');
+
+	src: local('Blokletters Balpen Balpen'), local('Blokletters-Balpen'), url('../fonts/Blokletters-Balpen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*General Style*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	background: url("../images/header_bg.jpg") no-repeat #fff;
+	
+}
+
+#wrapper{
+	
+	width:980px;
+	margin:0 auto;
+	background:#fff;
+}
+
+
+
+/*Fonts*/
+
+/* Esteban: It is necessary to update the font family name all around. See below. */
+
+h2{
+	
+	font:23px BloklettersBalpenBalpen;
+	color:#ff5c05;
+}
+
+
+h3{
+	
+	font:15px BloklettersBalpenBalpen;
+
+}
+
+h4{
+	
+	font:16px Arial;
+	
+}
+
+p{	
+	
+	font:12px Tahoma;
+	line-height: 20px;
+
+}
+
+em{
+	color:#ff5c05;
+	font: 15px arial;
+	line-height: 16px;
+
+}
+
+.subtituloh2{
+	
+	color:#ff5c05;
+	font:22px BloklettersBalpenBalpen;
+	
+}
+
+span{
+	
+	font:16.5px BloklettersBalpenBalpen;
+	color:#000;
+	
+}
+
+
+/*Header*/
+
+header{
+	
+	background:transparent;
+	height: 76px;
+	
+}
+
+header img{
+	
+	float: left;
+	margin:20px 19px 0 16px;
+	
+}
+
+
+/* Navigator */
+
+nav{
+		
+	margin:18px 0 0 0 ;
+	
+	width:978px;
+	/* width:978px; */
+	height:56px;	
+	background:#000000;
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#171516), to(#332f2e)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #171516, #332f2e); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #171516, #332f2e); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #171516, #332f2e); /* IE10 */
+	background-image:      -o-linear-gradient(top, #171516, #332f2e); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #171516, #332f2e);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#171516', EndColorStr='#332f2e'); /* IE6-IE9 */
+    
+    border:1px solid;
+
+}
+
+nav li:last-child{
+	
+	border-right:none;
+	
+}	
+nav li{
+	
+	float:left;
+	list-style:none;
+	width:117px;
+	height:57px;
+	border-right:1px solid;
+	text-align:center;
+    position: relative;
+    font: 8px BloklettersBalpenBalpen;
+    line-height: 1.2em;
+}	
+
+nav li a{
+		
+	text-decoration:none;
+	cursor: pointer;
+	color:#fff;
+	padding-bottom: 18px;
+    padding-top: 21px;	
+    display:block;
+}
+
+
+nav li a:hover{
+	
+	color:#ff5c05;
+	 
+}
+
+
+/* Gallery */
+
+/* Esteban: My custom classes */
+
+.bannerSlide {
+	width: 951px;
+    height: 399px;
+
+}
+
+.bannerContent {
+	width: 951px;
+    height: 399px;
+	/* border: 1px solid #cc8800; */
+}
+
+/* Esteban: END OF my custom classes */
+
+
+#slider_Primary {
+	
+	background:#f3f3f3;
+	padding:20px 0 0 15px;
+	width: 951px;
+    height: 399px;
+	float:left;
+	overflow:hidden;
+}
+
+
+.slider {
+	
+	width:951px;
+	height:321px;
+	position:relative;
+
+}
+
+
+/* Esteban: Section disabled because was made for old <div id="slider_Primary" */
+
+/*
+.img_Container {
+	
+	display:none;
+	
+}
+
+
+.img_Menu li {
+	
+	padding:327px 0 0 0;
+	float:right;
+	list-style: none;
+}
+
+.img_Menu li a {
+	
+	display:inline-block;
+	width:30px;
+	height:30px;
+	text-indent:-5000px;
+	background:url("../images/gallery_button.png") no-repeat;
+}
+
+.img_Menu li a:hover {
+	
+	background:url("../images/gallery_button_grey.png") no-repeat;
+}
+*/
+
+
+/* issues_container */
+
+/* Esteban: The backbround image in brown below the slider */
+#issues_container{
+	
+	margin:432px 0 0 15px;
+	background:url("../images/learn_more_bg.jpg");
+	height: 160px;
+    width: 951px;
+}
+
+#issues_container div{
+	
+	background:transparent;
+	height: 117px;
+    width: 301px;
+    border-right:1px solid;
+    display: inline-block;
+    padding: 13px 0 30px 11px;
+
+}
+
+#issues_container div:first-child{
+	
+    width: 300px;
+    padding: 13px 0 30px 17px;
+}
+
+#issues_container div:last-child{
+	
+	border-right:none;
+	width: 294px;
+	padding: 0 0 0 12px;
+    
+}
+
+#issues_container h3{
+	
+	color:#fff;
+	padding: 0 0 0 2px;
+	height: 29px;
+		
+}
+
+#issues_container h4{
+	
+	color:#f75105;
+	padding: 0 0 0 3px;
+	
+}
+
+
+#issues_container p{
+	
+	color:#5d5455;
+	padding: 8px 0 9px 2px;
+    line-height: 16px;
+	
+}
+
+/* Esteban: Next two id elements to make work the hover over method of the orange image 'learn more' 
+   Issues container will make the mark a (anchor) work just inside of the container.
+   Later, we will CHANGE the mark anchor behaviour to work with other buttons like read_more.jpg */
+
+#issues_container a{
+	
+	padding:0 0 11px 88px;
+	margin: 0 0 0 4px;
+	background: url("../images/learn_more.jpg") no-repeat;
+	
+}
+
+#issues_container a:hover{
+	
+
+    padding:0 0 11px 88px;
+	background: url("../images/learn_more_hover.jpg") no-repeat;
+	
+}
+
+
+/* Content  */
+
+#content{
+	
+	height: 775px;
+    width: 651px;
+    float:left;
+}
+
+/* Welcome  */
+
+
+#welcome {
+	
+	padding: 0 0 0 14px;
+	height: 380px;
+    width: 287px;
+    float:left;
+}
+
+#welcome  h2{
+	
+ 
+	padding: 30px 0 0 0;
+	height: 29px;
+		
+}
+
+#welcome  h3{
+	
+	padding: 14px 0 13px 0;
+	height: 29px;
+		
+}
+
+#welcome  em{
+	
+	padding: 8px 0 0 0;
+
+	
+}
+
+#welcome  p{
+	
+	padding: 8px 0 15px 0;
+	
+}
+
+/* Esteban: Read More buttons with hover over functions */
+
+#welcome a{
+	
+	padding:0 0 11px 88px;
+	margin: 0 0 0 1px;
+	background: url("../images/read_more_hover.jpg") no-repeat;
+	
+}
+
+#welcome a:hover{
+	
+
+    padding:0 0 11px 88px;
+	background: url("../images/read_more.jpg") no-repeat;
+	
+}
+
+
+/* About  */
+
+
+#about {
+	
+	height: 380px;
+    width: 296px;
+    float:left;
+    padding: 0 0 0 30px;
+}
+
+
+#about  h2{
+	
+ 
+	padding: 29px 0 0 4px;
+	height: 29px;
+		
+}
+
+#about h3{
+	
+	padding: 15px 0 13px 2px;
+	height: 29px;
+	
+		
+}
+
+#about em{
+	
+	padding: 33px 0 0 5px;
+
+	
+}
+
+#about p{
+	
+	padding:9px 0 13px 2px;
+
+}
+
+hr{
+	
+	size:1px;
+	color:#EAEAEA;
+	opacity: 0.4;
+	margin: 0 0 17px 0;
+	
+}
+
+#about a{
+	
+	padding:0 0 11px 88px;
+	margin: 0 0 0 4px;
+	background: url("../images/read_more_hover.jpg") no-repeat;
+	
+}
+
+
+#about a:hover{
+	
+    padding:0 0 11px 88px;
+	background: url("../images/read_more.jpg") no-repeat;	
+}
+
+
+
+/* Contacts */
+
+
+#contacts {
+	
+	height: 332px;
+    width: 613px;
+    float:left;
+    padding:  0 0 0 15px;
+}
+
+
+#contacts h2{
+	
+	padding: 19px 0 0 0 ;
+	height: 29px;
+		
+}
+
+#contacts span{
+	
+	padding: 0 0 0 7px;
+		
+}
+
+#contacts ul{
+	
+	list-style: none;
+	padding:10px 0 0 0;
+	display:block;
+	font:17px Verdana;
+	line-height: 20px;
+}
+
+.li_em{
+	
+	color:#f75105;
+	
+}
+
+#contacts li a{
+	
+	text-decoration: none;
+	color:#000;
+}
+
+#contacts p{
+	
+	padding:24px 0 0 0;
+
+}
+
+/* Google Maps*/
+
+#map{
+	
+	padding:29px 20px 0 0;
+	float:left;
+}
+
+
+/* Products */
+
+
+#products{
+	
+	height:775px;
+    width: 316px;   
+    margin:0 13px 0 0;
+    float:right;
+}
+
+#products h2{
+	
+	padding: 31px 0 0 2px;
+	height: 29px;
+		
+}
+
+#frames_container{
+		
+	padding: 25px 0 0 0;
+	display:block;
+    float: left;
+    padding: 30px 0 0 4px;
+    display: block;
+    list-style: none;
+}   
+
+li.light_frame{
+	
+	background:#F2EEEF;
+	color:#6F6B6C;
+	height: 104px;
+    width: 307px;
+	border:1px solid #C3BFC0;
+}
+
+
+li.dark_frame{
+	
+	background:#D9D5D6;
+	color:#6F6B6C;
+	height: 102px;
+    width: 307px;
+	border:1px solid #C3BFC0;	
+}
+
+
+#frames_container li:hover{
+	
+	background:#2C2829;
+	color:#ff5c05;
+	border:1px solid #070506;
+
+}
+
+#frames_container li:hover > h4{
+	
+	color:#fff;
+}
+
+#products h4{
+	
+	font:bolder 12px Arial;
+    float:left;
+    padding:16px 0 0 0;
+}
+
+#products p{
+	
+	font: 12px Arial; 
+	line-height: 17px;
+    padding:34px 2px 0 0;
+}
+
+
+#products img{
+	
+	float:left;
+	padding: 7px 17px 0 9px;
+}
+
+#products img:fistchild{
+	
+	padding: 9px 0  0 9px;
+}
+
+
+/* Footer */
+footer{
+	
+	background: url("../images/footer.jpg") no-repeat;
+	width:980px;
+}
+
+footer ul{
+	
+   padding:0 0 0 35px;
+
+}
+
+footer li{
+	
+	display:inline-block;
+	list-style: none;
+}
+
+footer li a{
+	
+	text-decoration:none;
+	font:11px Verdana;
+	color:#000;
+}
+
+footer a{
+	
+	text-decoration:none;
+	color:#F55402;
+	font:12px Verdana;
+
+}
+
+footer p{
+	
+	color:#666666;
+	float:left;
+	padding:9px 0 0 34px;
+}

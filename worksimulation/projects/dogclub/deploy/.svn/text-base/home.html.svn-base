@@ -1,0 +1,82 @@
+﻿		<div class="container_24">
+			<div class="wrapper">
+				<article class="grid_24">
+					<div class="banner1 extra_wrapper">
+						<div class="date">
+							18-25 <span>march</span>
+						</div>
+
+						<div class="text">
+							national championship
+						</div><a class="order_but" href="#">Order now!</a>
+					</div>
+				</article>
+			</div>
+
+			<div class="wrapper">
+				<article class="grid_15">
+					<div class="wrapper women">
+						<div class="grid_6 alpha">
+							<h2 class="ind">You can show your love to your pet!</h2>
+
+							<p class="para2"><strong class="color1">Praesent vestibulum aenean non- ummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada odio.</strong></p><strong class="color2">Praesent vestibulum aenean nonummy hendrerit mauris.<br/>
+							Hasellus porta. Fusce suscipit<br/>
+							varius mi cum sociis natoque.</strong>
+						</div>
+
+						<div class="grid_4 omega prefix_4">
+							<p class="para2">Praesent vestibulum aenean nonummy hen- drerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada. odio. Morbi nunc odio gravida at.</p><a class="link1" href="#">read more</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="grid_9">
+					<h3 class="ind">recommended:</h3>
+
+					<ul class="recommended">
+						<li>
+							<a class="img_wrap" href="#"><img alt="dog" src="images/home/1page_img1.jpg"/></a> <a class="img_wrap" href="#"><img alt="dog" src="images/home/1page_img2.jpg"></a> <a class="img_wrap" href="#"/><img alt="dog" src="images/home/1page_img3.jpg"/></a>
+						</li>
+
+						<li class="last">
+							<a class="img_wrap" href="#"><img alt="dog" src="images/home/1page_img4.jpg"/></a> <a class="img_wrap" href="#"><img alt="dog" src="images/home/1page_img5.jpg"/></a> <a class="img_wrap" href="#"><img alt="dog" src="images/home/1page_img6.jpg"/></a>
+						</li>
+					</ul>
+				</article>
+			</div>
+
+			<div class="stripe1"></div>
+
+			<div class="wrapper">
+				<article class="grid_5">
+					<h3 class="green ind1">exhibition</h3>
+
+					<p class="para3">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at.</p><a class="link1" href="#">read more</a>
+				</article>
+
+				<article class="grid_5 prefix_1">
+					<h3 class="green ind1">breeds</h3>
+
+					<p class="para3">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at.</p><a class="link1" href="#">read more</a>
+				</article>
+
+				<article class="grid_5 prefix_1">
+					<h3 class="green ind1">foods</h3>
+
+					<p class="para3">Praesent vestibulum aenean nonummy hendrerit mauris. Hasellus porta. Fusce suscipit varius mi cum sociis natoque. Fusce feugiat malesuada odio. Morbi nunc odio gravida at.</p><a class="link1" href="#">read more</a>
+				</article>
+
+				<article class="grid_6 prefix_1">
+					<div class="agression">
+						<h4>aggression?</h4>
+
+						<h5>call free:</h5>
+
+						<div class="phone">
+							1 800 125 1258
+						</div>An all-in-one dog training resource for owning, fixing your dog`s behavior problem
+					</div>
+				</article>
+			</div>
+		</div>
+	

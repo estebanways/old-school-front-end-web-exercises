@@ -1,0 +1,36 @@
+body{
+		background:black;
+		color: #000000;
+		text-align:justify;
+}
+
+.wrapper{
+		margin:20px auto;
+		width:1110px;
+		height:380px;
+		border: solid 20px white;
+		background:#D8D8D8;
+		padding:20px 10px;
+}
+
+
+#accordion {
+		list-style: none;
+		padding: 0;
+		height: 380px;
+		overflow: hidden;
+}
+
+#accordion li {
+		float: left;
+		border-left:1px;
+		display: block;
+		height: 400px;
+		width: 40px;
+		padding: 5px 5px;
+		overflow: hidden;
+}
+
+#accordion li.active {
+		width: 950px;
+}

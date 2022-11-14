@@ -1,0 +1,80 @@
+9
+
+dir
+355
+https://subversion.assembla.com/svn/external-training-second-set-2013/trunk/projects/ideales/assets
+https://subversion.assembla.com/svn/external-training-second-set-2013
+
+
+
+2013-09-06T16:45:56.516301Z
+331
+jean.sotil
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0d74e1d9-0806-4754-9aa8-232e6549806c
+
+.project
+file
+
+
+
+
+2013-08-31T11:45:11.277000Z
+fd93ccbf4d25995b133205621e4c408f
+2013-08-27T12:51:46.961291Z
+37
+ld2711
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+391
+
+assets
+dir
+
+copy
+dir
+
+deploy
+dir
+
+dev
+dir
+
+layouts
+dir
+
+psd
+dir
+

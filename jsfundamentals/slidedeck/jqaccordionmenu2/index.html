@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>My Horizontal Accordion</title>
+<link rel="stylesheet" type="text/css" href="css/accordion.css" />
+<script language="javascript" type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script language="javascript" type="text/javascript" src="js/accordion.js"></script>
+<style type="text/css">
+body {
+  background-color: #808080;
+}
+
+.set{border-bottom:1px solid #000}
+
+</style>
+</head>
+
+<body>
+<h3>Accordion</h3>
+
+<div id="accordion">
+
+  <div class="set">
+    <div class="title"><img src="images/inactive1.jpg" width="29" height="198" /></div>
+    <div class="content"><a href="" alt="Section 1" width="486" height="198" border="0" /></a><p>Content A</p></div>
+  </div>
+
+  <div class="set">
+    <div class="title"><img src="images/inactive2.jpg" width="29" height="198" /></div>
+      <div class="content">
+        <p>
+          We can slice the image tab to insert 4 buttons to add my carousel/slider right here to replace this text.
+        </p>
+            For example:
+          <a href="http://developers.slidedeck.com/">
+            <img src="unavailable.jpg" alt="Section 2" width="486" height="198" border="0" />
+          </a>
+        <p>
+
+        </p>
+      </div>
+    </div>
+
+  <div class="set">
+    <div class="title"><img src="images/inactive3.jpg" width="29" height="198" /></div>
+    <div class="content"><a href="http://www.aestudios.info"><img src="images/fromdusttilldawn.jpg" alt="Section 3" width="486" height="198" border="0" /></a> </div>
+  </div>
+
+  <div class="set">
+    <div class="title"><img src="images/inactive4.jpg" width="29" height="198" /></div>
+    <div class="content"><a href="http://http://www.facebook.com"><img src="images/fly.jpg" alt="Section 4" width="486" height="198" border="0" /></a><br />
+    </div>
+  </div>
+
+<!--
+  Pending to take out the script to JS files
+//-->
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+						   $("#accordion").msAccordion({defaultid:2});
+						   }
+						   )
+</script>
+</body>
+</html>
